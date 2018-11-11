@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ust.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="SIKLAB">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LessonMain"
+            android:label="LESSONS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LessonOne"
+            android:label="LESSON ONE"
+            android:parentActivityName=".LessonMain" />
+        <activity
+            android:name=".LessonTwo"
+            android:label="LESSON TWO"
+            android:parentActivityName=".LessonMain" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".ProgressMain"
+            android:label="PROGRESS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QuizMain"
+            android:label="QUIZZES"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".LessonThree"
+            android:label="LESSON THREE"
+            android:parentActivityName=".LessonMain"/>
+
+        <activity android:name=".LessonFour"
+            android:label="LESSON FOUR"
+            android:parentActivityName=".LessonMain"/>
+
+        <activity android:name=".LessonFive"
+            android:label="LESSON FIVE"
+            android:parentActivityName=".LessonMain"/>
+
+        <activity android:name=".LessonSix"
+            android:label="LESSON SIX"
+            android:parentActivityName=".LessonMain"/>
+
+        <activity android:name=".LessonSeven"
+            android:label="LESSON SEVEN"
+            android:parentActivityName=".LessonMain"></activity>
+    </application>
+
+</manifest>
