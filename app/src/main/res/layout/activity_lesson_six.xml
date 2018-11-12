@@ -19,5 +19,241 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
+        <ImageView
+            android:id="@+id/imageViewlessonsixfirst"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/lessonsixfirst"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsixtitle"/>
+
+        <TextView
+            android:id="@+id/textViewlessonsix1"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="Fire Prevention Tip #1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessonsixfirst" />
+
+        <ImageView
+            android:id="@+id/imageViewlessonsixsecond"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/lessonsixsecond"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix1"/>
+
+        <TextView
+            android:id="@+id/textViewlessonsix2"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:text="One of the simplest and most effective fire safety precautions you can do to help keep your family safe is to install smoke detectors and smoke alarms throughout your home. It is important to check smoke alarms regularly and change their batteries at least once a year."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessonsixsecond" />
+
+        <TextView
+            android:id="@+id/textViewlessonsix3"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="Fire Prevention Tip #2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix2" />
+
+        <ImageView
+            android:id="@+id/imageViewlessonsixthird"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/lessonsixthird"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix3"/>
+
+        <TextView
+            android:id="@+id/textViewlessonsix4"
+            android:layout_width="360dp"
+            android:layout_height="120dp"
+            android:text="At a minimum, you should have one smoke alarm for each level in your home. A smoke alarm should be placed within 10 feet of sleeping areas since most fire deaths occur at night while people are sleeping. In order to be most effective, the alarm should be mounted on the ceiling or towards the top of a wall about a foot below the ceiling. "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessonsixthird" />
+
+        <TextView
+            android:id="@+id/textViewlessonsix5"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="Fire Prevention Tip #3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix4" />
+
+        <ImageView
+            android:id="@+id/imageViewlessonsixfourth"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/lessonsixfourth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix5"/>
+
+        <TextView
+            android:id="@+id/textViewlessonsix6"
+            android:layout_width="360dp"
+            android:layout_height="600dp"
+            android:text="In the event of a fire, your primary thoughts should be of the safety of you and your family. If there is any doubt about staying at home or leaving, leave immediately. It is important to have an evacuation plan in place and to practice it. This will ensure that you and your family know and understand how to get out of the house. Here’s a checklist of fire safety considerations:\n
+- Have an escape plan for each room and make the bedrooms top priority. Rehearse the plan regularly as a rehearsed escape plan will help eliminate panic in an emergency situation.\n
+- Once the alarm sounds, time is of the essence. Don’t stop to gather valuables or toys — just get out.\n
+- Designate a window as a secondary exit. Make sure it is completely unobstructed and is easily opened by children and elderly. For second and third story windows, keep a Fire Escape Ladder stored close by.\n
+- Feel closed doors for warmth before opening them and look for smoke seeping in around the door’s edges and from underneath. Open any closed door slowly and be prepared to shut it immediately if heat or smoke rush in.\n
+- Have a designated outside meeting place, and make everyone aware of where it is.\n
+- As soon as two people have reached the meeting place, have one person leave to call 911. The second person should stay to make sure the other family members all make it out.\n
+- If someone is missing don’t go back inside. Instead, notify the fire department as soon as they arrive.\n
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessonsixfourth" />
+
+        <TextView
+            android:id="@+id/textViewlessonsix7"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="Fire Prevention Tip #4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix6" />
+
+        <ImageView
+            android:id="@+id/imageViewlessonsixfifth"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/lessonsixfifth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix7"/>
+
+        <TextView
+            android:id="@+id/textViewlessonsix8"
+            android:layout_width="360dp"
+            android:layout_height="130dp"
+            android:text="Fires caused by candles, cooking, falling asleep while smoking and other such accidents can occur at any time. It is always a good idea to consider using smokeless electric or battery-operated candles, like Rechargeable Tea Light Candles. These candles are much safer than traditional candles."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessonsixfifth" />
+
+        <TextView
+            android:id="@+id/textViewlessonsix9"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="Fire Prevention Tip #5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix8" />
+
+        <ImageView
+            android:id="@+id/imageViewlessonsixsixth"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/lessonsixsixth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix9"/>
+
+        <TextView
+            android:id="@+id/textViewlessonsix10"
+            android:layout_width="360dp"
+            android:layout_height="400dp"
+            android:text="A little fire safety maintenance can go a long way towards reducing your risk of a fire at home. Here are some fire prevention tips you can do to help lower your risk of a fire breaking out:\n
+- Practice home fire drills regularly and make them realistic. Have different escape routes blocked and practice using alternate exits.\n
+- Lint build-up in your dryer’s vent can cause a fire. Get rid of it before it becomes a problem using a Dryer Maintenance Kit that includes a vent brush, lint trap brush, and vacuum attachment.\n
+- Make it a habit to unplug all countertop appliances when they aren’t being used.\n
+- Install a carbon monoxide detector.\n
+- Store cigarette lighters and matches where children can’t get them.\n
+- Don’t use an outdoor grill or charcoal grill indoors or on a porch or balcony.\n
+- Test your smoke alarm regularly to make sure it’s in working condition.\n
+- Change battery-operated smoke detector batteries once each year.\n
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessonsixsixth" />
+
+        <TextView
+            android:id="@+id/textViewlessonsix11"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="Fire Prevention Tip #6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix10" />
+
+        <ImageView
+            android:id="@+id/imageViewlessonsixseventh"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/lessonsixseventh"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix11"/>
+
+        <TextView
+            android:id="@+id/textViewlessonsix12"
+            android:layout_width="360dp"
+            android:layout_height="300dp"
+            android:text="If a fire does break out, don’t panic. If you throw water on the pan, grease could splatter and the fire might spread. Instead, grab a Fire Blanket and use it to smother the flames quickly. You can also grab a convenient Fire Extinguisher.\n\n
+Smoke inhalation, not burns, is by far the largest killer in fires, so the more time you have to escape, the better.\n\n
+
+Following these fire prevention tips and fire safety ideas will not only lessen your risk of damage, injury, and loss, but may also save your life, and the lives of your family. The minimal amount of time it takes to read and practice these fire prevention tips could end up being one of the best investments you ever make!
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessonsixseventh" />
+
+        <Button
+            android:id="@+id/completelessonsix"
+            style="@style/RedRoundedButton"
+            android:background="@drawable/rounded_button"
+            android:text="Complete Lesson"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonsix12" />
+
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

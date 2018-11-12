@@ -17,5 +17,168 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <ImageView
+        android:id="@+id/imageViewlessonfivefirst"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonfivefirst"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfivetitle"/>
+
+    <TextView
+        android:id="@+id/textViewlessonfive1"
+        android:layout_width="360dp"
+        android:layout_height="700dp"
+        android:text="Portable fire extinguishers are first-aid devices and provide a first line of defense against small fires.\n
+
+Fire extinguishers do not replace the Fire Department.\n\n
+
+Limitations of Using a Fire Extinguisher:\n
+Even on small fires, they are effective only under the following conditions:\n
+-The extinguisher must be rated for the type of fire to be extinguished.\n
+-Must be large enough for the fire at hand.\n
+-Must be in good working order, fully charged and within easy reach.\n\n
+
+Fire Extinguisher Maintenance:\n
+-Require regular care.\n
+-Read manual or label.\n
+-Need regular inspection.\n
+-Recharge reusable models after every use.\n\n
+
+Where to Put Fire Extinguishers:\n
+-Readily accessible area.\n
+-Plain view.\n
+-Reachable without entering the fire area.\n
+-Near the escape route/door.\n
+-Not too close to a potential source of fire.\n
+-Top of stairwell.\n
+-Not behind a door.\n\n
+
+How to use Fire Extinguisher:\n
+P – Pull the pin\n
+A – Aim the nozzle\n
+S – Squeeze the lever\n
+S – Sweep side to side at the base of the fire\n\n
+
+Classifications of Fire Extinguishers:\n
+1. DRY CHEMICAL – (Mono Ammonium Phosphate) Powder Type, less toxic, Noncorrosive and non-conductor of electricity.\n
+-Recommended usage: For A, B and C fires.\n
+-Identification: Red Color Cylinder.\n
+-Action against fires: Smoldering, Replacing oxygen with Carbon Dioxide.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfivefirst" />
+
+    <ImageView
+        android:id="@+id/imageViewlessonfivesecond"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonfivesecond"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfive1"/>
+
+    <TextView
+        android:id="@+id/textViewlessonfive2"
+        android:layout_width="360dp"
+        android:layout_height="173dp"
+        android:text="2. CARBON DIOXIDE – A snow like liquefied gas type chemical. Less toxic and non-conductor of electricity.\n
+-Recommended Usage: For Class B and C fires.\n
+-Identification: Red cylinder with black band and big air nozzle (horn).\n
+-Action against fires: Replacing Oxygen with CO2, Cooling effect.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfivesecond" />
+
+    <ImageView
+        android:id="@+id/imageViewlessonfivethird"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonfivethird"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfive2"/>
+
+    <TextView
+        android:id="@+id/textViewlessonfive3"
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:text="3. AFFF – (Aqueous Film Forming Foam), water based with 3% or 6% concentration. Not recommended for Class C types of fires.\n
+-Recommended Usage: For Class A and B fires.\n
+-Identification: Blue Cylinders or Stainless Steel.\n
+-Action: Smoldering and cooling effect.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfivethird" />
+
+    <ImageView
+        android:id="@+id/imageViewlessonfivefourth"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonfivefourth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfive3"/>
+
+    <TextView
+        android:id="@+id/textViewlessonfive4"
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:text="4. HALON and ALTERNATIVES – Liquefied gas type, clean agent and may not affect sensitive equipment.\n
+-Recommended Usage: For Class A, B and C fires.\n
+-Identification: Red. Yellow and Green Cylinders.\n
+-Effect against Fire: Replacing oxygen, thru chemical reaction cutting the burning process.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfivefourth" />
+
+    <ImageView
+        android:id="@+id/imageViewlessonfivefifth"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonfivefifth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfive4"/>
+
+    <Button
+        android:id="@+id/completelessonfive"
+        style="@style/RedRoundedButton"
+        android:background="@drawable/rounded_button"
+        android:text="Complete Lesson"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfivefifth" />
+
 </android.support.constraint.ConstraintLayout>
 </ScrollView>

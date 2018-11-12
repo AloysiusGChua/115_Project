@@ -31,19 +31,6 @@
             android:label="LESSON TWO"
             android:parentActivityName=".LessonMain" />
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
-
-        <activity
-            android:name=".ProgressMain"
-            android:label="PROGRESS"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".QuizMain"
-            android:label="QUIZZES"
-            android:parentActivityName=".MainActivity" />
-
         <activity android:name=".LessonThree"
             android:label="LESSON THREE"
             android:parentActivityName=".LessonMain"/>
@@ -63,6 +50,20 @@
         <activity android:name=".LessonSeven"
             android:label="LESSON SEVEN"
             android:parentActivityName=".LessonMain"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".ProgressMain"
+            android:label="PROGRESS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QuizMain"
+            android:label="QUIZZES"
+            android:parentActivityName=".MainActivity" />
+
     </application>
 
 </manifest>

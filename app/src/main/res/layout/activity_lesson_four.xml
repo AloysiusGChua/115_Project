@@ -17,5 +17,51 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <ImageView
+        android:id="@+id/imageViewlessonfourfirst"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonfourfirst"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfourtitle"/>
+
+    <TextView
+        android:id="@+id/textViewlessonfour1"
+        style="@style/TextViewLessonChoose"
+        android:layout_width="360dp"
+        android:layout_height="900dp"
+        android:text="1. Identify and report fire hazards and unsafe work practices.\n
+2. Unplug all electrical equipment when not in operation, unless necessary.\n
+3. Maintain proper housekeeping.\n
+4. Familiarize and keep emergency exits marked, lighted and free from any obstruction.\n
+5. Familiarize location of fire alarm, fire extinguishers and other fire fighting equipment.\n
+6. Enforce “No Smoking” policy.\n
+7. Avoid overloading of electrical circuits by plugging many appliances.\n
+8. Do not store large volume of combustible liquids without proper clearance/permit and fire protection.\n
+9. Ensure complete attendance of ALL fire brigade members during Fire Safety Seminars and Drills\n
+10. Regularly conduct emergency drills (internal).\n\n
+
+It's also good to memorize the direct lines of fire stations near your home and work places. For Metro Manila residents, you can dial 117.\n
+
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfourfirst"/>
+
+    <Button
+        android:id="@+id/completelessonfour"
+        style="@style/RedRoundedButton"
+        android:background="@drawable/rounded_button"
+        android:text="Complete Lesson"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfour1" />
+
 </android.support.constraint.ConstraintLayout>
 </ScrollView>

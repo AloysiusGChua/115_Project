@@ -17,5 +17,177 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <ImageView
+        android:id="@+id/imageViewlessonthreefirst"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonthreefirst"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonthreetitle"/>
+
+    <TextView
+        android:id="@+id/textViewlessonthree1"
+        style="@style/TextViewLessonChoose"
+        android:layout_width="360dp"
+        android:layout_height="250dp"
+        android:text="A fire is classified according to the fuel it consumes\n
+CLASS A\n
+Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber and some plastics.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonthreefirst"/>
+
+    <ImageView
+        android:id="@+id/imageViewlessonthreesecond"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonthreesecond"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonthree1"/>
+
+    <TextView
+        android:id="@+id/textViewlessonthree2"
+        style="@style/TextViewLessonChoose"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:text="CLASS B\n
+Flammable or combustible liquids such as gasoline, kerosene, paint, paint thinners and propane.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonthreesecond"/>
+
+    <ImageView
+        android:id="@+id/imageViewlessonthreethird"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonthreethird"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonthree2"/>
+
+    <TextView
+        android:id="@+id/textViewlessonthree3"
+        style="@style/TextViewLessonChoose"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:text="CLASS C\n
+Energized electrical equipment, such as appliances, switches, panel boxes and power tools.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonthreethird"/>
+
+    <ImageView
+        android:id="@+id/imageViewlessonthreefourth"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonthreefourth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonthree3"/>
+
+    <TextView
+        android:id="@+id/textViewlessonthree4"
+        style="@style/TextViewLessonChoose"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:text="CLASS D\n
+Certain combustible metals, such as magnesium, titanium, potassium and sodium. They may react violently with water or other chemicals, and must be handled with care.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonthreefourth"/>
+
+    <ImageView
+        android:id="@+id/imageViewlessonthreefifth"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonthreefifth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonthree4"/>
+
+    <TextView
+        android:id="@+id/textViewlessonthree5"
+        style="@style/TextViewLessonChoose"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:text="CLASS K\n
+Fires involving combustible cooking fluids such as oils and fats.\n
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonthreefifth"/>
+
+    <ImageView
+        android:id="@+id/imageViewlessonthreesixth"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lessonthreesixth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonthree5"/>
+
+    <TextView
+        android:id="@+id/textViewlessonthree6"
+        style="@style/TextViewLessonChoose"
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:text="METHODS OF HEAT TRANSFER\n
+1. By Radiation\n
+-With heat rays causing nearby combustible objects to burst into flames\n
+2. By Convection\n
+-Through the action of heat arising within a structure, bringing along poisonous gases and smoke.\n
+-The most life-threatening\n
+-Fastest way fire travels\n
+3. By Direct Contact/Conduction\n
+-With the flame catching from one object to another"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonthreesixth"/>
+
+    <Button
+        android:id="@+id/completelessonthree"
+        style="@style/RedRoundedButton"
+        android:background="@drawable/rounded_button"
+        android:text="Complete Lesson"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonthree6" />
+
 </android.support.constraint.ConstraintLayout>
 </ScrollView>

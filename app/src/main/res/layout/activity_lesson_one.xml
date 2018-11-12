@@ -20,7 +20,7 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageViewlessononefirst"
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:layout_marginEnd="8dp"
@@ -55,10 +55,10 @@ The diffusion flame process (fire) is a rapid self-sustaining oxidation process 
 Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessononefirst" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageViewlessononesecond"
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:layout_marginEnd="8dp"
@@ -76,13 +76,13 @@ Fire consists of three basic elements, as represented by the fire triangle: HEAT
             android:layout_width="360dp"
             android:layout_height="122dp"
             android:text="The diffusion flame process (fire) is a rapid self-sustaining oxidation process accompanied by the evolution of heat and light of varying intensities.\n
-Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN. "
+Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN.\n"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+            app:layout_constraintTop_toBottomOf="@+id/imageViewlessononesecond" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/completelessonone"
             style="@style/RedRoundedButton"
             android:background="@drawable/rounded_button"
             android:text="Complete Lesson"
