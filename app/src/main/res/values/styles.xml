@@ -25,7 +25,7 @@
     </style>
 
     <style name="TextViewLessonChoose">
-        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">100dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:layout_marginLeft">8dp</item>
@@ -35,6 +35,18 @@
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center</item>
         <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="TextViewLessons">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
     </style>
 
     <style name="TextViewHomePage">
@@ -64,7 +76,7 @@
     </style>
 
     <style name="CardViewLesson">
-        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">160dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:layout_marginLeft">8dp</item>

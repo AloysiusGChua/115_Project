@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/textViewlessonfivetitle"
-        style="@style/TextViewLessonChoose"
+        style="@style/TextViewLessons"
         android:text="Fire Extinguishers"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -13,7 +13,7 @@
 
         <TextView
             android:id="@+id/textViewlessononetitle"
-            style="@style/TextViewLessonChoose"
+            style="@style/TextViewLessons"
             android:text="Understanding the Nature of Fire"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

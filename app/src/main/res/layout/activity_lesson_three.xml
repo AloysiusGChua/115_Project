@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/textViewlessonthreetitle"
-        style="@style/TextViewLessonChoose"
+        style="@style/TextViewLessons"
         android:text="Classes of Fire and Methods of Heat Transfer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
 
     <TextView
         android:id="@+id/textViewlessonthree1"
-        style="@style/TextViewLessonChoose"
+        style="@style/TextViewLessons"
         android:layout_width="360dp"
         android:layout_height="250dp"
         android:text="A fire is classified according to the fuel it consumes\n
@@ -60,7 +60,7 @@ Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber an
 
     <TextView
         android:id="@+id/textViewlessonthree2"
-        style="@style/TextViewLessonChoose"
+        style="@style/TextViewLessons"
         android:layout_width="360dp"
         android:layout_height="150dp"
         android:text="CLASS B\n
@@ -86,7 +86,7 @@ Flammable or combustible liquids such as gasoline, kerosene, paint, paint thinne
 
     <TextView
         android:id="@+id/textViewlessonthree3"
-        style="@style/TextViewLessonChoose"
+        style="@style/TextViewLessons"
         android:layout_width="360dp"
         android:layout_height="150dp"
         android:text="CLASS C\n
@@ -112,7 +112,7 @@ Energized electrical equipment, such as appliances, switches, panel boxes and po
 
     <TextView
         android:id="@+id/textViewlessonthree4"
-        style="@style/TextViewLessonChoose"
+        style="@style/TextViewLessons"
         android:layout_width="360dp"
         android:layout_height="150dp"
         android:text="CLASS D\n
@@ -138,7 +138,7 @@ Certain combustible metals, such as magnesium, titanium, potassium and sodium. T
 
     <TextView
         android:id="@+id/textViewlessonthree5"
-        style="@style/TextViewLessonChoose"
+        style="@style/TextViewLessons"
         android:layout_width="360dp"
         android:layout_height="150dp"
         android:text="CLASS K\n
@@ -164,7 +164,7 @@ Fires involving combustible cooking fluids such as oils and fats.\n
 
     <TextView
         android:id="@+id/textViewlessonthree6"
-        style="@style/TextViewLessonChoose"
+        style="@style/TextViewLessons"
         android:layout_width="360dp"
         android:layout_height="500dp"
         android:text="METHODS OF HEAT TRANSFER\n
