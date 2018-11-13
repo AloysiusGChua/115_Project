@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="SIKLAB">
+            android:label="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,26 +30,26 @@
             android:name=".LessonTwo"
             android:label="LESSON TWO"
             android:parentActivityName=".LessonMain" />
-
-        <activity android:name=".LessonThree"
+        <activity
+            android:name=".LessonThree"
             android:label="LESSON THREE"
-            android:parentActivityName=".LessonMain"/>
-
-        <activity android:name=".LessonFour"
+            android:parentActivityName=".LessonMain" />
+        <activity
+            android:name=".LessonFour"
             android:label="LESSON FOUR"
-            android:parentActivityName=".LessonMain"/>
-
-        <activity android:name=".LessonFive"
+            android:parentActivityName=".LessonMain" />
+        <activity
+            android:name=".LessonFive"
             android:label="LESSON FIVE"
-            android:parentActivityName=".LessonMain"/>
-
-        <activity android:name=".LessonSix"
+            android:parentActivityName=".LessonMain" />
+        <activity
+            android:name=".LessonSix"
             android:label="LESSON SIX"
-            android:parentActivityName=".LessonMain"/>
-
-        <activity android:name=".LessonSeven"
+            android:parentActivityName=".LessonMain" />
+        <activity
+            android:name=".LessonSeven"
             android:label="LESSON SEVEN"
-            android:parentActivityName=".LessonMain"></activity>
+            android:parentActivityName=".LessonMain" />
 
         <meta-data
             android:name="preloaded_fonts"
@@ -63,7 +63,35 @@
             android:name=".QuizMain"
             android:label="QUIZZES"
             android:parentActivityName=".MainActivity" />
-
+        <activity
+            android:name=".QuizOne"
+            android:label="QUIZ ONE"
+            android:parentActivityName=".QuizMain" />
+        <activity
+            android:name=".QuizTwo"
+            android:label="QUIZ TWO"
+            android:parentActivityName=".QuizMain" />
+        <activity
+            android:name=".QuizThree"
+            android:label="QUIZ THREE"
+            android:parentActivityName=".QuizMain" />
+        <activity
+            android:name=".QuizFour"
+            android:label="QUIZ FOUR"
+            android:parentActivityName=".QuizMain" />
+        <activity
+            android:name=".QuizFive"
+            android:label="QUIZ FIVE"
+            android:parentActivityName=".QuizMain" />
+        <activity
+            android:name=".QuizSix"
+            android:label="QUIZ SIX"
+            android:parentActivityName=".QuizMain" />
+        <activity
+            android:name=".QuizSeven"
+            android:label="QUIZ SEVEN"
+            android:parentActivityName=".QuizMain" />
+        <activity android:name=".SplashScreen"></activity>
     </application>
 
 </manifest>

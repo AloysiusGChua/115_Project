@@ -1,9 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuizMain">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/quizone"
+        style="@style/RedRoundedButton"
+        android:background="@color/btColor"
+        android:text="Quiz 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewquizone" />
+
+    <TextView
+        android:id="@+id/textViewquizone"
+        style="@style/TextViewLessonChoose"
+        android:text="Understanding the Nature of Fire"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/quiztwo"
+        style="@style/RedRoundedButton"
+        android:background="@color/btColor"
+        android:text="Quiz 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewquiztwo" />
+
+    <TextView
+        android:id="@+id/textViewquiztwo"
+        style="@style/TextViewLessonChoose"
+        android:text="Stages of Fire"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizone" />
+
+    <Button
+        android:id="@+id/quizthree"
+        style="@style/RedRoundedButton"
+        android:background="@color/btColor"
+        android:text="Quiz 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewquizthree" />
+
+    <TextView
+        android:id="@+id/textViewquizthree"
+        style="@style/TextViewLessonChoose"
+        android:text="Classes of Fire and Methods of Heat Transfer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiztwo" />
+
+    <Button
+        android:id="@+id/quizfour"
+        style="@style/RedRoundedButton"
+        android:background="@color/btColor"
+        android:text="Quiz 4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewquizfour" />
+
+    <TextView
+        android:id="@+id/textViewquizfour"
+        style="@style/TextViewLessonChoose"
+        android:text="Fire Safety Tips"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizthree" />
+
+    <Button
+        android:id="@+id/quizfive"
+        style="@style/RedRoundedButton"
+        android:background="@color/btColor"
+        android:text="Quiz 5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewquizfive" />
+
+    <TextView
+        android:id="@+id/textViewquizfive"
+        style="@style/TextViewLessonChoose"
+        android:text="Fire Extinguishers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizfour"/>
+
+    <Button
+        android:id="@+id/quizsix"
+        style="@style/RedRoundedButton"
+        android:background="@color/btColor"
+        android:text="Quiz 6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewquizsix" />
+
+    <TextView
+        android:id="@+id/textViewquizsix"
+        style="@style/TextViewLessonChoose"
+        android:text="Fire Prevention"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizfive"/>
+
+    <Button
+        android:id="@+id/quizseven"
+        style="@style/RedRoundedButton"
+        android:background="@color/btColor"
+        android:text="Quiz 7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewquizseven" />
+
+    <TextView
+        android:id="@+id/textViewquizseven"
+        style="@style/TextViewLessonChoose"
+        android:text="Fire Safety First Aid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizsix" />
 
 </android.support.constraint.ConstraintLayout>
+</ScrollView>
