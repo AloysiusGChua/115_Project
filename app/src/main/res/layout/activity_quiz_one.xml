@@ -12,7 +12,8 @@
         style="@style/CardViewQuiz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        card_view:cardElevation="15dp"
+        card_view:cardBackgroundColor="@color/colorBackground"
+        card_view:cardElevation="0dp"
         card_view:layout_constraintBottom_toBottomOf="parent"
         card_view:layout_constraintHorizontal_bias="1.0"
         card_view:layout_constraintTop_toTopOf="parent"
@@ -35,27 +36,27 @@
 
             <CheckBox
                 android:id="@+id/checkBoxanswerquizoneA"
-                android:text="A) 10 Seconds"
                 style="@style/TextViewQuizAnswer"
+                android:text="A) 10 Seconds"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textViewQuizone1"/>
+                app:layout_constraintTop_toBottomOf="@+id/textViewQuizone1" />
 
             <CheckBox
                 android:id="@+id/checkBoxanswerquizoneB"
-                android:text="A) 60 Seconds"
                 style="@style/TextViewQuizAnswer"
+                android:text="B) 60 Seconds"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneA"/>
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneA" />
 
             <CheckBox
                 android:id="@+id/checkBoxanswerquizoneC"
-                android:text="A) 30 Seconds"
                 style="@style/TextViewQuizAnswer"
+                android:text="C) 30 Seconds"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneB"/>
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneB" />
 
             <Button
                 android:id="@+id/lessonone"
