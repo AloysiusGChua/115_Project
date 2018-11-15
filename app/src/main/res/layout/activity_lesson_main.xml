@@ -31,6 +31,7 @@
                 <TextView
                     android:id="@+id/textView1"
                     style="@style/TextViewLessonChoose"
+                    android:layout_marginTop="0dp"
                     android:text="Stages of Fire"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -62,12 +63,14 @@
             android:layout_height="160dp"
             android:minHeight="160dp"
             android:minWidth="300dp">
+
             <TextView
                 android:id="@+id/textView2"
                 style="@style/TextViewLessonChoose"
                 android:text="Understanding the Nature of Fire"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
 
             <Button
                 android:id="@+id/lessontwo"

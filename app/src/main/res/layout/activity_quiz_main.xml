@@ -10,123 +10,252 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/quizone"
-        style="@style/RedRoundedButton"
-        android:background="@color/btColor"
-        android:text="Quiz 1"
+
+<!--Quiz 1-->
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardViewQuiz1"
+        style="@style/CardViewLesson"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewquizone" />
+        card_view:cardElevation="10dp"
+        card_view:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textViewquizone"
-        style="@style/TextViewLessonChoose"
-        android:text="Understanding the Nature of Fire"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:minHeight="160dp"
+            android:minWidth="300dp">
 
-    <Button
-        android:id="@+id/quiztwo"
-        style="@style/RedRoundedButton"
-        android:background="@color/btColor"
-        android:text="Quiz 2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewquiztwo" />
+            <Button
+                android:id="@+id/quizone"
+                style="@style/RedRoundedButton"
+                android:text="Quiz 1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewquizone" />
 
-    <TextView
-        android:id="@+id/textViewquiztwo"
-        style="@style/TextViewLessonChoose"
-        android:text="Stages of Fire"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quizone" />
+            <TextView
+                android:id="@+id/textViewquizone"
+                style="@style/TextViewLessonChoose"
+                android:text="Understanding the Nature of Fire"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/quizthree"
-        style="@style/RedRoundedButton"
-        android:background="@color/btColor"
-        android:text="Quiz 3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewquizthree" />
+        </android.support.constraint.ConstraintLayout>
 
-    <TextView
-        android:id="@+id/textViewquizthree"
-        style="@style/TextViewLessonChoose"
-        android:text="Classes of Fire and Methods of Heat Transfer"
+    </android.support.v7.widget.CardView>
+
+<!--Quiz 2-->
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardViewQuiz2"
+        style="@style/CardViewLesson"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quiztwo" />
+        app:layout_constraintTop_toBottomOf="@+id/CardViewQuiz1"
+        card_view:cardElevation="10dp">
 
-    <Button
-        android:id="@+id/quizfour"
-        style="@style/RedRoundedButton"
-        android:background="@color/btColor"
-        android:text="Quiz 4"
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:minHeight="160dp"
+            android:minWidth="300dp">
+
+            <Button
+                android:id="@+id/quiztwo"
+                style="@style/RedRoundedButton"
+                android:text="Quiz 2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewquiztwo" />
+
+            <TextView
+                android:id="@+id/textViewquiztwo"
+                style="@style/TextViewLessonChoose"
+                android:text="Stages of Fire"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+<!--Quiz 3-->
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardViewQuiz3"
+        style="@style/CardViewLesson"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewquizfour" />
+        app:layout_constraintTop_toBottomOf="@+id/CardViewQuiz2"
+        card_view:cardElevation="10dp">
 
-    <TextView
-        android:id="@+id/textViewquizfour"
-        style="@style/TextViewLessonChoose"
-        android:text="Fire Safety Tips"
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:minHeight="160dp"
+            android:minWidth="300dp">
+
+            <Button
+                android:id="@+id/quizthree"
+                style="@style/RedRoundedButton"
+                android:text="Quiz 3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewquizthree" />
+
+            <TextView
+                android:id="@+id/textViewquizthree"
+                style="@style/TextViewLessonChoose"
+                android:text="Classes of Fire and Methods of Heat Transfer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+<!--Quiz 4-->
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardViewQuiz4"
+        style="@style/CardViewLesson"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quizthree" />
+        app:layout_constraintTop_toBottomOf="@+id/CardViewQuiz3"
+        card_view:cardElevation="10dp">
 
-    <Button
-        android:id="@+id/quizfive"
-        style="@style/RedRoundedButton"
-        android:background="@color/btColor"
-        android:text="Quiz 5"
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:minHeight="160dp"
+            android:minWidth="300dp">
+
+            <Button
+                android:id="@+id/quizfour"
+                style="@style/RedRoundedButton"
+                android:text="Quiz 4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewquizfour" />
+
+            <TextView
+                android:id="@+id/textViewquizfour"
+                style="@style/TextViewLessonChoose"
+                android:text="Fire Safety Tips"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+<!--Quiz 5-->
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardViewQuiz5"
+        style="@style/CardViewLesson"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewquizfive" />
+        app:layout_constraintTop_toBottomOf="@+id/CardViewQuiz4"
+        card_view:cardElevation="10dp">
 
-    <TextView
-        android:id="@+id/textViewquizfive"
-        style="@style/TextViewLessonChoose"
-        android:text="Fire Extinguishers"
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:minHeight="160dp"
+            android:minWidth="300dp">
+
+            <Button
+                android:id="@+id/quizfive"
+                style="@style/RedRoundedButton"
+                android:text="Quiz 5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewquizfive" />
+
+            <TextView
+                android:id="@+id/textViewquizfive"
+                style="@style/TextViewLessonChoose"
+                android:text="Fire Extinguishers"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+<!--Quiz 6-->
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardViewQuiz6"
+        style="@style/CardViewLesson"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quizfour"/>
+        app:layout_constraintTop_toBottomOf="@+id/CardViewQuiz5"
+        card_view:cardElevation="10dp">
 
-    <Button
-        android:id="@+id/quizsix"
-        style="@style/RedRoundedButton"
-        android:background="@color/btColor"
-        android:text="Quiz 6"
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:minHeight="160dp"
+            android:minWidth="300dp">
+
+            <Button
+                android:id="@+id/quizsix"
+                style="@style/RedRoundedButton"
+                android:text="Quiz 6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewquizsix" />
+
+            <TextView
+                android:id="@+id/textViewquizsix"
+                style="@style/TextViewLessonChoose"
+                android:text="Fire Prevention"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+<!--Quiz 7-->
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardViewQuiz7"
+        style="@style/CardViewLesson"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewquizsix" />
+        app:layout_constraintTop_toBottomOf="@+id/CardViewQuiz6"
+        card_view:cardElevation="10dp">
 
-    <TextView
-        android:id="@+id/textViewquizsix"
-        style="@style/TextViewLessonChoose"
-        android:text="Fire Prevention"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quizfive"/>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:minHeight="160dp"
+            android:minWidth="300dp">
 
-    <Button
-        android:id="@+id/quizseven"
-        style="@style/RedRoundedButton"
-        android:background="@color/btColor"
-        android:text="Quiz 7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewquizseven" />
+            <TextView
+                android:id="@+id/textViewquizseven"
+                style="@style/TextViewLessonChoose"
+                android:text="Fire Safety First Aid"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textViewquizseven"
-        style="@style/TextViewLessonChoose"
-        android:text="Fire Safety First Aid"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quizsix" />
+            <Button
+                android:id="@+id/quizseven"
+                style="@style/RedRoundedButton"
+                android:text="Quiz 7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewquizseven" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
 
 </android.support.constraint.ConstraintLayout>
 </ScrollView>

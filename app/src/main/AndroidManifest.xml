@@ -29,31 +29,31 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LessonOne"
-            android:label="LESSON ONE"
+            android:label="LESSON 1: Understanding the Nature of Fire"
             android:parentActivityName=".LessonMain" />
         <activity
             android:name=".LessonTwo"
-            android:label="LESSON TWO"
+            android:label="LESSON 2: Stages of Fire"
             android:parentActivityName=".LessonMain" />
         <activity
             android:name=".LessonThree"
-            android:label="LESSON THREE"
+            android:label="LESSON 3: Classes of Fire and Methods of Heat Transfer"
             android:parentActivityName=".LessonMain" />
         <activity
             android:name=".LessonFour"
-            android:label="LESSON FOUR"
+            android:label="LESSON 4: Fire Safety Tips"
             android:parentActivityName=".LessonMain" />
         <activity
             android:name=".LessonFive"
-            android:label="LESSON FIVE"
+            android:label="LESSON 5: Fire Extinguishers"
             android:parentActivityName=".LessonMain" />
         <activity
             android:name=".LessonSix"
-            android:label="LESSON SIX"
+            android:label="LESSON 6: Fire Prevention"
             android:parentActivityName=".LessonMain" />
         <activity
             android:name=".LessonSeven"
-            android:label="LESSON SEVEN"
+            android:label="LESSON 7: Fire Safety First Aid"
             android:parentActivityName=".LessonMain" />
 
         <meta-data
@@ -70,31 +70,31 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".QuizOne"
-            android:label="QUIZ ONE"
+            android:label="QUIZ 1: Understanding the Nature of Fire"
             android:parentActivityName=".QuizMain" />
         <activity
             android:name=".QuizTwo"
-            android:label="QUIZ TWO"
+            android:label="QUIZ 2: Stages of Fire"
             android:parentActivityName=".QuizMain" />
         <activity
             android:name=".QuizThree"
-            android:label="QUIZ THREE"
+            android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
             android:parentActivityName=".QuizMain" />
         <activity
             android:name=".QuizFour"
-            android:label="QUIZ FOUR"
+            android:label="QUIZ 4: Fire Safety Tips"
             android:parentActivityName=".QuizMain" />
         <activity
             android:name=".QuizFive"
-            android:label="QUIZ FIVE"
+            android:label="QUIZ 5: Fire Extinguishers"
             android:parentActivityName=".QuizMain" />
         <activity
             android:name=".QuizSix"
-            android:label="QUIZ SIX"
+            android:label="QUIZ 6: Fire Prevention"
             android:parentActivityName=".QuizMain" />
         <activity
             android:name=".QuizSeven"
-            android:label="QUIZ SEVEN"
+            android:label="QUIZ 7: Fire Safety First Aid"
             android:parentActivityName=".QuizMain" />
 
     </application>

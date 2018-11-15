@@ -5,4 +5,5 @@
     <color name="btColor">#ff3f3f</color>
     <color name="colorTitleBar">#ff3f3f</color>
     <color name="colorBackground">#f8f8f8ff</color>
+    <color name="colorQuizAnswer">#2D313B</color>
 </resources>

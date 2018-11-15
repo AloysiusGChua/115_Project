@@ -4,6 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuizOne">
+    tools:context=".QuizOne"
+    tools:layout_editor_absoluteY="50dp">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardViewLesson1"
+        style="@style/CardViewQuiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        card_view:cardElevation="15dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintHorizontal_bias="1.0"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintVertical_bias="1.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:id="@+id/textViewQuizone1"
+                style="@style/TextViewQuiz"
+                android:text="1. A fire will double every __ seconds."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <CheckBox
+                android:id="@+id/checkBoxanswerquizoneA"
+                android:text="A) 10 Seconds"
+                style="@style/TextViewQuizAnswer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewQuizone1"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxanswerquizoneB"
+                android:text="A) 60 Seconds"
+                style="@style/TextViewQuizAnswer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneA"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxanswerquizoneC"
+                android:text="A) 30 Seconds"
+                style="@style/TextViewQuizAnswer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneB"/>
+
+            <Button
+                android:id="@+id/lessonone"
+                style="@style/RedRoundedButton"
+                android:layout_marginTop="20dp"
+                android:text="Next"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneC" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textViewQuiz1title"
+        style="@style/TextViewQuizTitle"
+        android:text="Quiz 1"
+        app:layout_constraintBottom_toTopOf="@+id/CardViewLesson1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
