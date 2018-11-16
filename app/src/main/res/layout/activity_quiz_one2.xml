@@ -5,15 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuizOne"
+    tools:context=".QuizOne2"
     tools:layout_editor_absoluteY="50dp">
-
+    
 <android.support.constraint.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/CardViewLesson1"
+        android:id="@+id/CardViewLesson1one"
         style="@style/CardViewQuiz"
         android:layout_height="500dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,9 +31,9 @@
             android:background="@color/colorBackground">
 
             <TextView
-                android:id="@+id/textViewQuizone1"
+                android:id="@+id/textViewQuizone2"
                 style="@style/TextViewQuiz"
-                android:text="1. A fire will double every __ seconds."
+                android:text="2. Also known as DILG Act of 1990 that recognized BFP as a separate and distinct agency."
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -41,52 +41,64 @@
 
 
             <CheckBox
-                android:id="@+id/checkBoxanswerquizoneA"
+                android:id="@+id/checkBoxanswerquizone2A"
                 style="@style/TextViewQuizAnswer"
-                android:text="A) 10 Seconds"
+                android:text="A) RA 10173"
                 android:background="@drawable/btn_quiz"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textViewQuizone1" />
+                app:layout_constraintTop_toBottomOf="@+id/textViewQuizone2" />
 
             <CheckBox
-                android:id="@+id/checkBoxanswerquizoneB"
+                android:id="@+id/checkBoxanswerquizone2B"
                 style="@style/TextViewQuizAnswer"
-                android:text="B) 60 Seconds"
+                android:text="B) RA 6975"
                 android:background="@drawable/btn_quiz"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneA" />
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizone2A" />
 
             <CheckBox
-                android:id="@+id/checkBoxanswerquizoneC"
+                android:id="@+id/checkBoxanswerquizone2C"
                 style="@style/TextViewQuizAnswer"
-                android:text="C) 30 Seconds"
+                android:text="C) RA 2039"
                 android:background="@drawable/btn_quiz"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneB" />
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizone2B" />
 
             <Button
-                android:id="@+id/quizonenext"
+                android:id="@+id/quizonenext2"
                 style="@style/RedRoundedButtonQuiz"
                 android:layout_marginTop="44dp"
                 android:background="@drawable/btn_redroundedbutton"
                 android:text="Next"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneC"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizone2C"
                 card_view:layout_constraintHorizontal_bias="0.843" />
+
+            <Button
+                android:id="@+id/quizoneback2"
+                style="@style/RedRoundedButtonQuiz"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/btn_redroundedbutton"
+                android:text="Back"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizone2C"
+                card_view:layout_constraintHorizontal_bias="0.174" />
+
 
         </android.support.constraint.ConstraintLayout>
 
     </android.support.v7.widget.CardView>
 
     <TextView
-        android:id="@+id/textViewQuiz1title"
+        android:id="@+id/textViewQuiz1titleSecond"
         style="@style/TextViewQuizTitle"
         android:text="Quiz 1"
-        app:layout_constraintBottom_toTopOf="@+id/CardViewLesson1"
+        app:layout_constraintBottom_toTopOf="@+id/CardViewLesson1one"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

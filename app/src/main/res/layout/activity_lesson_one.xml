@@ -84,7 +84,7 @@ Fire consists of three basic elements, as represented by the fire triangle: HEAT
         <Button
             android:id="@+id/completelessonone"
             style="@style/RedRoundedButton"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/btn_redroundedbutton"
             android:text="Complete Lesson"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

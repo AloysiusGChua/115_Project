@@ -18,11 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
-            android:label=""/>
-
+            android:label="" />
         <activity
             android:name=".LessonMain"
             android:label="LESSONS"
@@ -96,7 +94,22 @@
             android:name=".QuizSeven"
             android:label="QUIZ 7: Fire Safety First Aid"
             android:parentActivityName=".QuizMain" />
+        <activity
+            android:name=".QuizOne2"
+            android:label="QUIZ 1: Understanding the Nature of Fire"
+            android:parentActivityName=".QuizOne" />
+        <activity
+            android:name=".QuizOne3"
+            android:label="QUIZ 1: Understanding the Nature of Fire"
+            android:parentActivityName=".QuizOne2" />
 
+        <activity android:name=".QuizOne4"
+            android:label="QUIZ 1: Understanding the Nature of Fire"
+            android:parentActivityName=".QuizOne3" />
+
+        <activity android:name=".QuizOne5"
+            android:label="QUIZ 1: Understanding the Nature of Fire"
+            android:parentActivityName=".QuizOne4" ></activity>
     </application>
 
 </manifest>

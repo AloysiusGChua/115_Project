@@ -183,7 +183,7 @@ Fires involving combustible cooking fluids such as oils and fats.\n
     <Button
         android:id="@+id/completelessonthree"
         style="@style/RedRoundedButton"
-        android:background="@drawable/rounded_button"
+        android:background="@drawable/btn_redroundedbutton"
         android:text="Complete Lesson"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

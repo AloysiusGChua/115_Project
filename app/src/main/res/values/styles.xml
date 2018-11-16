@@ -21,7 +21,18 @@
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:textSize">30sp</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">@color/btColor</item>
+    </style>
+
+    <style name="RedRoundedButtonQuiz">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
     </style>
 
     <style name="TextViewLessonChoose">
@@ -87,7 +98,7 @@
 
     <style name="CardViewQuiz">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">450dp</item>
+        <item name="android:layout_height">500dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:layout_marginLeft">8dp</item>
         <item name="android:layout_marginRight">8dp</item>
@@ -117,7 +128,7 @@
         <item name="android:layout_marginRight">8dp</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:gravity">center</item>
     </style>
 
@@ -143,9 +154,9 @@
         <item name="android:layout_marginRight">8dp</item>
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginTop">8dp</item>
+        <item name="android:radius">20dp</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">@color/colorQuizAnswer</item>
     </style>
 </resources>
