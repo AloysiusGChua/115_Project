@@ -94,6 +94,9 @@
             android:name=".QuizSeven"
             android:label="QUIZ 7: Fire Safety First Aid"
             android:parentActivityName=".QuizMain" />
+
+
+
         <activity
             android:name=".QuizOne2"
             android:label="QUIZ 1: Understanding the Nature of Fire"
@@ -110,6 +113,9 @@
             android:name=".QuizOne5"
             android:label="QUIZ 1: Understanding the Nature of Fire"
             android:parentActivityName=".QuizOne4" />
+
+
+
         <activity
             android:name=".QuizTwo2"
             android:label="QUIZ 2: Stages of Fire"
@@ -126,6 +132,9 @@
             android:name=".QuizTwo5"
             android:label="QUIZ 2: Stages of Fire"
             android:parentActivityName=".QuizTwo4" />
+
+
+
         <activity
             android:name=".QuizThree2"
             android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
@@ -142,7 +151,24 @@
             android:name=".QuizThree5"
             android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
             android:parentActivityName=".QuizThree4" />
-        <activity android:name=".QuizFour2"></activity>
+
+
+
+        <activity android:name=".QuizFour2"
+            android:label="QUIZ 4: Fire Safety Tips"
+            android:parentActivityName=".QuizFour" />
+
+        <activity android:name=".QuizFour3"
+            android:label="QUIZ 4: Fire Safety Tips"
+            android:parentActivityName=".QuizFour2" />
+
+        <activity android:name=".QuizFour4"
+            android:label="QUIZ 4: Fire Safety Tips"
+            android:parentActivityName=".QuizFour3" />
+
+        <activity android:name=".QuizFour5"
+            android:label="QUIZ 4: Fire Safety Tips"
+            android:parentActivityName=".QuizFour4" ></activity>
     </application>
 
 </manifest>
