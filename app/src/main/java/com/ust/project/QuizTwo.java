@@ -14,7 +14,7 @@ public class QuizTwo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_two);
 
-        ActionBar actionBarQuizOne = getSupportActionBar();
+        ActionBar actionBarQuizTwo = getSupportActionBar();
         Button nBtnnextquiz2 = (Button)findViewById(R.id.quiztwonext);
         nBtnnextquiz2.setOnClickListener(new View.OnClickListener(){
             @Override
