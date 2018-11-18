@@ -126,22 +126,23 @@
             android:name=".QuizTwo5"
             android:label="QUIZ 2: Stages of Fire"
             android:parentActivityName=".QuizTwo4" />
-
-        <activity android:name=".QuizThree2"
+        <activity
+            android:name=".QuizThree2"
             android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
             android:parentActivityName=".QuizThree" />
-
-        <activity android:name=".QuizThree3"
+        <activity
+            android:name=".QuizThree3"
             android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
             android:parentActivityName=".QuizThree2" />
-
-        <activity android:name=".QuizThree4"
+        <activity
+            android:name=".QuizThree4"
             android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
             android:parentActivityName=".QuizThree3" />
-
-        <activity android:name=".QuizThree5"
+        <activity
+            android:name=".QuizThree5"
             android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
-            android:parentActivityName=".QuizThree4" ></activity>
+            android:parentActivityName=".QuizThree4" />
+        <activity android:name=".QuizFour2"></activity>
     </application>
 
 </manifest>
