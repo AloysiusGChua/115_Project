@@ -102,14 +102,30 @@
             android:name=".QuizOne3"
             android:label="QUIZ 1: Understanding the Nature of Fire"
             android:parentActivityName=".QuizOne2" />
-
-        <activity android:name=".QuizOne4"
+        <activity
+            android:name=".QuizOne4"
             android:label="QUIZ 1: Understanding the Nature of Fire"
             android:parentActivityName=".QuizOne3" />
-
-        <activity android:name=".QuizOne5"
+        <activity
+            android:name=".QuizOne5"
             android:label="QUIZ 1: Understanding the Nature of Fire"
-            android:parentActivityName=".QuizOne4" ></activity>
+            android:parentActivityName=".QuizOne4" />
+
+        <activity android:name=".QuizTwo2"
+            android:label="QUIZ 2: Stages of Fire"
+            android:parentActivityName=".QuizTwo" />
+
+        <activity android:name=".QuizTwo3"
+            android:label="QUIZ 2: Stages of Fire"
+            android:parentActivityName=".QuizTwo2"/>
+
+        <activity android:name=".QuizTwo4"
+            android:label="QUIZ 2: Stages of Fire"
+            android:parentActivityName=".QuizTwo3"/>
+
+        <activity android:name=".QuizTwo5"
+            android:label="QUIZ 2: Stages of Fire"
+            android:parentActivityName=".QuizTwo4" ></activity>
     </application>
 
 </manifest>

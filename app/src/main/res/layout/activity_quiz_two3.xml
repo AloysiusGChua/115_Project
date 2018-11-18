@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuizTwo"
+    tools:context=".QuizTwo3"
     tools:layout_editor_absoluteY="50dp">
 
     <android.support.constraint.ConstraintLayout
@@ -13,7 +13,7 @@
         android:layout_height="match_parent">
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/CardViewLesson2"
+            android:id="@+id/CardViewLesson2two"
             style="@style/CardViewQuiz"
             android:layout_height="500dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,9 +31,9 @@
                 android:background="@color/colorBackground">
 
                 <TextView
-                    android:id="@+id/textViewQuiztwo1"
+                    android:id="@+id/textViewQuiztwo3"
                     style="@style/TextViewQuiz"
-                    android:text="1. Stage where most fire is consumed."
+                    android:text="3. Stage where fire is generally confined to the fuel that initially started."
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -41,52 +41,64 @@
 
 
                 <CheckBox
-                    android:id="@+id/checkBoxanswerquiztwoA"
+                    android:id="@+id/checkBoxanswerquiztwo3A"
                     style="@style/TextViewQuizAnswer"
-                    android:text="A) Decay"
+                    android:text="A) Fully Developed"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textViewQuiztwo1" />
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuiztwo3" />
 
                 <CheckBox
-                    android:id="@+id/checkBoxanswerquiztwoB"
+                    android:id="@+id/checkBoxanswerquiztwo3B"
                     style="@style/TextViewQuizAnswer"
                     android:text="B) Ignition"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquiztwoA" />
+                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquiztwo3A" />
 
                 <CheckBox
-                    android:id="@+id/checkBoxanswerquiztwoC"
+                    android:id="@+id/checkBoxanswerquiztwo3C"
                     style="@style/TextViewQuizAnswer"
-                    android:text="C) Fully Developed"
+                    android:text="C) Growth"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquiztwoB" />
+                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquiztwo3B" />
 
                 <Button
-                    android:id="@+id/quiztwonext"
+                    android:id="@+id/quiztwonext3"
                     style="@style/RedRoundedButtonQuiz"
                     android:layout_marginTop="44dp"
                     android:background="@drawable/btn_redroundedbutton"
                     android:text="Next"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquiztwoC"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquiztwo3C"
                     card_view:layout_constraintHorizontal_bias="0.843" />
+
+                <Button
+                    android:id="@+id/quiztwoback3"
+                    style="@style/RedRoundedButtonQuiz"
+                    android:layout_marginTop="44dp"
+                    android:background="@drawable/btn_redroundedbutton"
+                    android:text="Back"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquiztwo3C"
+                    card_view:layout_constraintHorizontal_bias="0.174" />
+
 
             </android.support.constraint.ConstraintLayout>
 
         </android.support.v7.widget.CardView>
 
         <TextView
-            android:id="@+id/textViewQuiz2title"
+            android:id="@+id/textViewQuiz2titleThird"
             style="@style/TextViewQuizTitle"
             android:text="Quiz 2"
-            app:layout_constraintBottom_toTopOf="@+id/CardViewLesson2"
+            app:layout_constraintBottom_toTopOf="@+id/CardViewLesson2two"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
