@@ -43,7 +43,7 @@
     <TextView
         android:id="@+id/textViewprogress3"
         style="@style/TextViewProgress"
-        android:text="Total Score: 0/35"
+        android:text="Total Score: 0/25"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewprogress2" />
@@ -87,22 +87,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewprogress7" />
-
-    <TextView
-        android:id="@+id/textViewprogress9"
-        style="@style/TextViewProgress"
-        android:text="Quiz 6: 0/5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress8" />
-
-    <TextView
-        android:id="@+id/textViewprogress10"
-        style="@style/TextViewProgress"
-        android:text="Quiz 7: 0/5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress9" />
 
 </android.support.constraint.ConstraintLayout>
 </ScrollView>

@@ -33,7 +33,7 @@
                 <TextView
                     android:id="@+id/textViewQuiztwo4"
                     style="@style/TextViewQuiz"
-                    android:text="4. Stage where all combustibles materials present are continuously burning."
+                    android:text="4. Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber and some plastics."
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
                 <CheckBox
                     android:id="@+id/checkBoxanswerquiztwo4A"
                     style="@style/TextViewQuizAnswer"
-                    android:text="A) Fully Developed"
+                    android:text="A) Class A"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
                 <CheckBox
                     android:id="@+id/checkBoxanswerquiztwo4B"
                     style="@style/TextViewQuizAnswer"
-                    android:text="B) Ignition"
+                    android:text="B) Class D"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +61,7 @@
                 <CheckBox
                     android:id="@+id/checkBoxanswerquiztwo4C"
                     style="@style/TextViewQuizAnswer"
-                    android:text="C) Growth"
+                    android:text="C) Class C"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

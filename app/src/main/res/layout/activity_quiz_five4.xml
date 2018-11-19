@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuizFive"
+    tools:context=".QuizFive4"
     tools:layout_editor_absoluteY="50dp">
 
     <android.support.constraint.ConstraintLayout
@@ -13,7 +13,7 @@
         android:layout_height="match_parent">
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/CardViewLesson5"
+            android:id="@+id/CardViewLesson5three"
             style="@style/CardViewQuiz"
             android:layout_height="500dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,9 +31,9 @@
                 android:background="@color/colorBackground">
 
                 <TextView
-                    android:id="@+id/textViewQuizfive1"
+                    android:id="@+id/textViewQuizfive4"
                     style="@style/TextViewQuiz"
-                    android:text="1. Monitor breathing as ________ of the airways can occur up to 24 hours after the initial burn."
+                    android:text="4. Which of these is not one of the symptoms to deliver the casualty to the Emergency Department?"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -41,52 +41,64 @@
 
 
                 <CheckBox
-                    android:id="@+id/checkBoxanswerquizfiveA"
+                    android:id="@+id/checkBoxanswerquizfive4A"
                     style="@style/TextViewQuizAnswer"
-                    android:text="A) Rupture"
+                    android:text="A) Hard Coughing"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizfive1" />
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizfive4" />
 
                 <CheckBox
-                    android:id="@+id/checkBoxanswerquizfiveB"
+                    android:id="@+id/checkBoxanswerquizfive4B"
                     style="@style/TextViewQuizAnswer"
-                    android:text="B) Blockage"
+                    android:text="B) Hoarse Voice"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizfiveA" />
+                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizfive4A" />
 
                 <CheckBox
-                    android:id="@+id/checkBoxanswerquizfiveC"
+                    android:id="@+id/checkBoxanswerquizfive4C"
                     style="@style/TextViewQuizAnswer"
-                    android:text="C) Swelling"
+                    android:text="C) Casualty appears to be confused"
                     android:background="@drawable/btn_quiz"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizfiveB" />
+                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizfive4B" />
 
                 <Button
-                    android:id="@+id/quizfivenext"
+                    android:id="@+id/quizfivenext4"
                     style="@style/RedRoundedButtonQuiz"
                     android:layout_marginTop="44dp"
                     android:background="@drawable/btn_redroundedbutton"
                     android:text="Next"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizfiveC"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizfive4C"
                     card_view:layout_constraintHorizontal_bias="0.843" />
+
+                <Button
+                    android:id="@+id/quizfiveback4"
+                    style="@style/RedRoundedButtonQuiz"
+                    android:layout_marginTop="44dp"
+                    android:background="@drawable/btn_redroundedbutton"
+                    android:text="Back"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizfive4C"
+                    card_view:layout_constraintHorizontal_bias="0.174" />
+
 
             </android.support.constraint.ConstraintLayout>
 
         </android.support.v7.widget.CardView>
 
         <TextView
-            android:id="@+id/textViewQuiz5title"
+            android:id="@+id/textViewQuiz5titleFourth"
             style="@style/TextViewQuizTitle"
             android:text="Quiz 5"
-            app:layout_constraintBottom_toTopOf="@+id/CardViewLesson5"
+            app:layout_constraintBottom_toTopOf="@+id/CardViewLesson5three"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

@@ -57,21 +57,6 @@ public class LessonMain extends AppCompatActivity {
             }
         });
 
-        Button Btnsix = (Button)findViewById(R.id.lessonsix);
-        Btnsix.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                startActivity(new Intent(LessonMain.this, LessonSix.class));
-            }
-        });
-
-        Button Btnseven = (Button)findViewById(R.id.lessonseven);
-        Btnseven.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                startActivity(new Intent(LessonMain.this, LessonSeven.class));
-            }
-        });
     }
 
 }

@@ -56,20 +56,5 @@ public class QuizMain extends AppCompatActivity {
             }
         });
 
-        Button nBtnquizsix = (Button)findViewById(R.id.quizsix);
-        nBtnquizsix.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                startActivity(new Intent(QuizMain.this, QuizSix.class));
-            }
-        });
-
-        Button nBtnquizseven = (Button)findViewById(R.id.quizseven);
-        nBtnquizseven.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                startActivity(new Intent(QuizMain.this, QuizSeven.class));
-            }
-        });
     }
 }

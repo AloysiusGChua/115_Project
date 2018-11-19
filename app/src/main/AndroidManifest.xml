@@ -43,15 +43,7 @@
             android:parentActivityName=".LessonMain" />
         <activity
             android:name=".LessonFive"
-            android:label="LESSON 5: Fire Extinguishers"
-            android:parentActivityName=".LessonMain" />
-        <activity
-            android:name=".LessonSix"
-            android:label="LESSON 6: Fire Prevention"
-            android:parentActivityName=".LessonMain" />
-        <activity
-            android:name=".LessonSeven"
-            android:label="LESSON 7: Fire Safety First Aid"
+            android:label="LESSON 5: Fire Safety First Aid"
             android:parentActivityName=".LessonMain" />
 
         <meta-data
@@ -84,19 +76,8 @@
             android:parentActivityName=".QuizMain" />
         <activity
             android:name=".QuizFive"
-            android:label="QUIZ 5: Fire Extinguishers"
+            android:label="QUIZ 5: Fire Safety First Aid"
             android:parentActivityName=".QuizMain" />
-        <activity
-            android:name=".QuizSix"
-            android:label="QUIZ 6: Fire Prevention"
-            android:parentActivityName=".QuizMain" />
-        <activity
-            android:name=".QuizSeven"
-            android:label="QUIZ 7: Fire Safety First Aid"
-            android:parentActivityName=".QuizMain" />
-
-
-
         <activity
             android:name=".QuizOne2"
             android:label="QUIZ 1: Understanding the Nature of Fire"
@@ -113,9 +94,6 @@
             android:name=".QuizOne5"
             android:label="QUIZ 1: Understanding the Nature of Fire"
             android:parentActivityName=".QuizOne4" />
-
-
-
         <activity
             android:name=".QuizTwo2"
             android:label="QUIZ 2: Stages of Fire"
@@ -132,9 +110,6 @@
             android:name=".QuizTwo5"
             android:label="QUIZ 2: Stages of Fire"
             android:parentActivityName=".QuizTwo4" />
-
-
-
         <activity
             android:name=".QuizThree2"
             android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
@@ -151,24 +126,46 @@
             android:name=".QuizThree5"
             android:label="QUIZ 3: Classes of Fire and Methods of Heat Transfer"
             android:parentActivityName=".QuizThree4" />
-
-
-
-        <activity android:name=".QuizFour2"
+        <activity
+            android:name=".QuizFour2"
             android:label="QUIZ 4: Fire Safety Tips"
             android:parentActivityName=".QuizFour" />
-
-        <activity android:name=".QuizFour3"
+        <activity
+            android:name=".QuizFour3"
             android:label="QUIZ 4: Fire Safety Tips"
             android:parentActivityName=".QuizFour2" />
-
-        <activity android:name=".QuizFour4"
+        <activity
+            android:name=".QuizFour4"
             android:label="QUIZ 4: Fire Safety Tips"
             android:parentActivityName=".QuizFour3" />
-
-        <activity android:name=".QuizFour5"
+        <activity
+            android:name=".QuizFour5"
             android:label="QUIZ 4: Fire Safety Tips"
-            android:parentActivityName=".QuizFour4" ></activity>
+            android:parentActivityName=".QuizFour4" />
+        <activity
+            android:name=".FinishQuiz"
+            android:label="Quiz"
+            android:parentActivityName=".TakeQuiz" />
+        <activity
+            android:name=".TakeQuiz"
+            android:label="Quiz"
+            android:parentActivityName=".TakeQuiz" />
+
+        <activity android:name=".QuizFive3"
+            android:label="QUIZ 5: Fire Safety First Aid"
+            android:parentActivityName=".QuizFive2" />
+
+        <activity android:name=".QuizFive4"
+            android:label="QUIZ 5: Fire Safety First Aid"
+            android:parentActivityName=".QuizFive3" />
+
+        <activity android:name=".QuizFive5"
+            android:label="QUIZ 5: Fire Safety First Aid"
+            android:parentActivityName=".QuizFive4" />
+
+        <activity android:name=".QuizFive2"
+            android:label="QUIZ 5: Fire Safety First Aid"
+            android:parentActivityName=".QuizFive" ></activity>
     </application>
 
 </manifest>
