@@ -33,6 +33,7 @@
                 <TextView
                     android:id="@+id/textViewQuiztwo5"
                     style="@style/TextViewQuiz"
+                    android:layout_width="400dp"
                     android:text="5. Stage where oxygen level decreased and the fuel is already dried out."
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"

@@ -34,8 +34,9 @@
 
         <TextView
             android:id="@+id/textViewlessonfive1"
-            android:layout_width="360dp"
-            android:layout_height="1050dp"
+            style="@style/TextViewLessonSize"
+            android:layout_width="match_parent"
+            android:layout_height="2050dp"
             android:text="The three Golden Rules to follow to ensure that you and your family are safe from fire are:\n
 - Prevention\n
 - The best way to be “fire safe” is to make sure that fires never happen.\n

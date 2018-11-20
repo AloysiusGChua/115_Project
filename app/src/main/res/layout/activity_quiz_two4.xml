@@ -33,6 +33,7 @@
                 <TextView
                     android:id="@+id/textViewQuiztwo4"
                     style="@style/TextViewQuiz"
+                    android:layout_width="350dp"
                     android:text="4. Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber and some plastics."
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"

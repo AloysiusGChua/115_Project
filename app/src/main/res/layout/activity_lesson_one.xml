@@ -35,8 +35,9 @@
 
         <TextView
             android:id="@+id/textViewlessonone1"
-            android:layout_width="360dp"
-            android:layout_height="640dp"
+            style="@style/TextViewLessonSize"
+            android:layout_width="match_parent"
+            android:layout_height="1050dp"
             android:text="Fire itself is a chemical phenomenon, all fuels are (synthetic or organic) chemical compounds and when fuel is ignited, the result is a chemical reaction with predictable physical effects.\n
 - A small fire can produce enough smoke to fill a building in minutes. Smoke results in:\n
 - Teary eyes\n
@@ -50,9 +51,7 @@
 Bureau of Fire Protection\n
 - Through the enactment of the RA 6975, also known as the DILG Act of 1990, the Fire Service was separated from the PC-INP as a separate and distinct agency as Bureau of Fire Protection on August 2, 1991.\n\n
 - BFP is mandated to prevent  and suppress destructive fires, conduct investigation, provide emergency medical and rescue services and enforce the Republic Act 9514.\n\n
-The Tetrahedron of Fire\n
-The diffusion flame process (fire) is a rapid self-sustaining oxidation process accompanied by the evolution of heat and light of varying intensities.\n
-Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN."
+The Tetrahedron of Fire\n"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewlessononefirst" />
@@ -73,8 +72,9 @@ Fire consists of three basic elements, as represented by the fire triangle: HEAT
 
         <TextView
             android:id="@+id/textViewlessonone2"
-            android:layout_width="360dp"
-            android:layout_height="122dp"
+            style="@style/TextViewLessonSize"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:text="The diffusion flame process (fire) is a rapid self-sustaining oxidation process accompanied by the evolution of heat and light of varying intensities.\n
 Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN.\n"
             app:layout_constraintEnd_toEndOf="parent"

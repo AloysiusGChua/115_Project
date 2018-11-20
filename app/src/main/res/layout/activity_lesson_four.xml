@@ -33,9 +33,10 @@
 
     <TextView
         android:id="@+id/textViewlessonfour1"
-        style="@style/TextViewLessons"
-        android:layout_width="360dp"
-        android:layout_height="900dp"
+        style="@style/TextViewLessonSize"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
         android:text="1. Identify and report fire hazards and unsafe work practices.\n
 2. Unplug all electrical equipment when not in operation, unless necessary.\n
 3. Maintain proper housekeeping.\n
@@ -50,7 +51,7 @@ It's also good to memorize the direct lines of fire stations near your home and 
 "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfourfirst"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfourfirst" />
 
     <Button
         android:id="@+id/completelessonfour"
