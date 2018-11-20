@@ -19,17 +19,17 @@
 
     <ImageView
         android:id="@+id/imageViewlessonfourfirst"
-        android:layout_width="250dp"
+        android:layout_width="0dp"
         android:layout_height="250dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/lessonfourfirst"
+        android:src="@drawable/firesafety"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfourtitle"/>
+        app:layout_constraintTop_toBottomOf="@+id/textViewlessonfourtitle" />
 
     <TextView
         android:id="@+id/textViewlessonfour1"
@@ -46,9 +46,7 @@
 8. Do not store large volume of combustible liquids without proper clearance/permit and fire protection.\n
 9. Ensure complete attendance of ALL fire brigade members during Fire Safety Seminars and Drills\n
 10. Regularly conduct emergency drills (internal).\n\n
-
 It's also good to memorize the direct lines of fire stations near your home and work places. For Metro Manila residents, you can dial 117.\n
-
 "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

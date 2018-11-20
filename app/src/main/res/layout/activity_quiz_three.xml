@@ -70,7 +70,7 @@
                 <Button
                     android:id="@+id/quizthreenext"
                     style="@style/RedRoundedButtonQuiz"
-                    android:layout_marginTop="44dp"
+                    android:layout_marginTop="30dp"
                     android:background="@drawable/btn_redroundedbutton"
                     android:text="Next"
                     app:layout_constraintEnd_toEndOf="parent"

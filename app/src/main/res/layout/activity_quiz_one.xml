@@ -43,8 +43,8 @@
             <CheckBox
                 android:id="@+id/checkBoxanswerquizoneA"
                 style="@style/TextViewQuizAnswer"
-                android:text="A) 10 Seconds"
                 android:background="@drawable/btn_quiz"
+                android:text="A) 10 Seconds"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textViewQuizone1" />
@@ -52,8 +52,8 @@
             <CheckBox
                 android:id="@+id/checkBoxanswerquizoneB"
                 style="@style/TextViewQuizAnswer"
-                android:text="B) 60 Seconds"
                 android:background="@drawable/btn_quiz"
+                android:text="B) 60 Seconds"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneA" />
@@ -61,8 +61,8 @@
             <CheckBox
                 android:id="@+id/checkBoxanswerquizoneC"
                 style="@style/TextViewQuizAnswer"
-                android:text="C) 30 Seconds"
                 android:background="@drawable/btn_quiz"
+                android:text="C) 30 Seconds"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/checkBoxanswerquizoneB" />
@@ -70,7 +70,7 @@
             <Button
                 android:id="@+id/quizonenext"
                 style="@style/RedRoundedButtonQuiz"
-                android:layout_marginTop="44dp"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/btn_redroundedbutton"
                 android:text="Next"
                 app:layout_constraintEnd_toEndOf="parent"

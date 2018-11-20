@@ -70,7 +70,7 @@
                 <Button
                     android:id="@+id/quizonenext5"
                     style="@style/RedRoundedButtonQuiz"
-                    android:layout_marginTop="44dp"
+                    android:layout_marginTop="30dp"
                     android:background="@drawable/btn_redroundedbutton"
                     android:text="Finish"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -81,7 +81,7 @@
                 <Button
                     android:id="@+id/quizoneback5"
                     style="@style/RedRoundedButtonQuiz"
-                    android:layout_marginTop="44dp"
+                    android:layout_marginTop="30dp"
                     android:background="@drawable/btn_redroundedbutton"
                     android:text="Back"
                     app:layout_constraintEnd_toEndOf="parent"

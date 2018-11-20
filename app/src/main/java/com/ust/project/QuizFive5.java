@@ -27,7 +27,7 @@ public class QuizFive5 extends AppCompatActivity {
         nBtnnextquiz55.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(QuizFive5.this, TakeQuiz.class));
+                startActivity(new Intent(QuizFive5.this, FinishQuiz5.class));
             }
         });
     }

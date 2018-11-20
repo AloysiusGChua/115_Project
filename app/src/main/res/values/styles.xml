@@ -158,6 +158,21 @@
         <item name="android:gravity">center</item>
     </style>
 
+    <style name="TextViewQuizCorrectAnswer">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:radius">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
     <style name="TextViewQuizTitle">
         <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">80dp</item>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnswerQuiz5"
+    tools:layout_editor_absoluteY="50dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/CardViewAnswer5"
+            style="@style/CardViewQuiz"
+            android:layout_height="1100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            card_view:cardBackgroundColor="@color/colorBackground"
+            card_view:cardElevation="0dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintHorizontal_bias="1.0"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="1.0">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackground">
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer15"
+                    style="@style/TextViewQuiz"
+                    android:text="1. Monitor breathing as ________ of the airways can occur up to 24 hours after the initial burn."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:layout_constraintHorizontal_bias="0.494"
+                    card_view:layout_constraintVertical_bias="0.031" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer15"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:layout_height="47dp"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="C) Swelling"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer15" />
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer25"
+                    style="@style/TextViewQuiz"
+                    android:text="2. If the casualty has to be transferred to hospital, make sure you ___________________."
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizoneanswer15"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer25"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="A) call for an ambulance "
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer25"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer35"
+                    style="@style/TextViewQuiz"
+                    android:text="3. The best way to be “fire safe” is to make sure that fires never happen."
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizoneanswer25"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer35"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="A) Prevention"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer45"
+                    style="@style/TextViewQuiz"
+                    android:text="4. Which of these is not one of the symptoms to deliver the casualty to the Emergency Department?"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizoneanswer35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer45"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="A) Hard coughing"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer45"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer55"
+                    style="@style/TextViewQuiz"
+                    android:text="5. If clothing is burning, which of the following should you do?"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizoneanswer45"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer55"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="C) have the casualty roll on the ground"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer55"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/textViewQuizAnswer5title"
+            style="@style/TextViewQuizTitle"
+            android:text="Quiz 5 Answer"
+            app:layout_constraintBottom_toTopOf="@+id/CardViewAnswer5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

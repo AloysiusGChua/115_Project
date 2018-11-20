@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnswerQuiz3"
+    tools:layout_editor_absoluteY="50dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/CardViewAnswer3"
+            style="@style/CardViewQuiz"
+            android:layout_height="1100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            card_view:cardBackgroundColor="@color/colorBackground"
+            card_view:cardElevation="0dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintHorizontal_bias="1.0"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="1.0">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackground">
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer13"
+                    style="@style/TextViewQuiz"
+                    android:text="1. Fires involving combustible cooking fluids such as oils and fats."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:layout_constraintHorizontal_bias="0.494"
+                    card_view:layout_constraintVertical_bias="0.031" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer13"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:layout_height="47dp"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="C) Class K"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer13" />
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer23"
+                    style="@style/TextViewQuiz"
+                    android:text="2. The most life-threatening method of Heat Transfer."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizoneanswer13" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer23"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="B) Convection"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer23" />
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer33"
+                    style="@style/TextViewQuiz"
+                    android:text="3. Energized electrical equipment, such as appliances, switches, panel boxes and power tools."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizoneanswer23" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer33"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="B) Class C"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer33" />
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer43"
+                    style="@style/TextViewQuiz"
+                    android:text="4. Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber and some plastics."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizoneanswer33" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer43"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="A) Class A"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer43" />
+
+                <TextView
+                    android:id="@+id/textViewQuizanswer53"
+                    style="@style/TextViewQuiz"
+                    android:text="5. Method of Heat Transfer with heat rays causing nearby combustible objects to burst into flames."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizoneanswer43" />
+
+                <TextView
+                    android:id="@+id/textViewQuizoneanswer53"
+                    style="@style/TextViewQuizCorrectAnswer"
+                    android:background="@drawable/bg_quizanswer"
+                    android:text="C) Radiation"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewQuizanswer53" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/textViewQuizAnswer3itle"
+            style="@style/TextViewQuizTitle"
+            android:text="Quiz 3 Answer"
+            app:layout_constraintBottom_toTopOf="@+id/CardViewAnswer3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

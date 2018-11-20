@@ -19,7 +19,7 @@ public class LessonTwo extends AppCompatActivity {
         nBtncompletelesson2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(LessonTwo.this, TakeQuiz.class));
+                startActivity(new Intent(LessonTwo.this, TakeQuiz2.class));
             }
         });
     }
