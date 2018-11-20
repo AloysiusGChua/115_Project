@@ -58,6 +58,7 @@
                 <TextView
                     android:id="@+id/textViewtakequiz32"
                     style="@style/TextViewTakeQuiz1"
+                    android:layout_height="100dp"
                     android:layout_marginTop="20dp"
                     android:text="This quiz will focus on Lesson 2: Stages of Fire"
                     app:layout_constraintEnd_toEndOf="parent"

@@ -58,6 +58,7 @@
                 <TextView
                     android:id="@+id/textViewtakequiz35"
                     style="@style/TextViewTakeQuiz1"
+                    android:layout_height="100dp"
                     android:layout_marginTop="20dp"
                     android:text="This quiz will focus on Lesson 5: Fire Safety First Aid"
                     app:layout_constraintEnd_toEndOf="parent"

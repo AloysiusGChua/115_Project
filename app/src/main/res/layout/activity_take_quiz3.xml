@@ -58,6 +58,7 @@
                 <TextView
                     android:id="@+id/textViewtakequiz33"
                     style="@style/TextViewTakeQuiz1"
+                    android:layout_height="100dp"
                     android:layout_marginTop="20dp"
                     android:text="This quiz will focus on Lesson 3: Classes of Fire and Methods of Heat Transfer"
                     app:layout_constraintEnd_toEndOf="parent"
