@@ -35,8 +35,8 @@
     <TextView
         android:id="@+id/textViewlessontwo1"
         style="@style/TextViewLessonSize"
-        android:layout_width="match_parent"
-        android:layout_height="1100dp"
+        android:layout_width="350dp"
+        android:layout_height="1150dp"
         android:text="IGNITION STAGE\n
 Point wherein the fire starts\n
 There is plenty of oxygen, little heat and smoke\n

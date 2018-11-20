@@ -36,8 +36,8 @@
         <TextView
             android:id="@+id/textViewlessonone1"
             style="@style/TextViewLessonSize"
-            android:layout_width="match_parent"
-            android:layout_height="1050dp"
+            android:layout_width="350dp"
+            android:layout_height="1065dp"
             android:text="Fire itself is a chemical phenomenon, all fuels are (synthetic or organic) chemical compounds and when fuel is ignited, the result is a chemical reaction with predictable physical effects.\n
 - A small fire can produce enough smoke to fill a building in minutes. Smoke results in:\n
 - Teary eyes\n
@@ -73,7 +73,7 @@ The Tetrahedron of Fire\n"
         <TextView
             android:id="@+id/textViewlessonone2"
             style="@style/TextViewLessonSize"
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="200dp"
             android:text="The diffusion flame process (fire) is a rapid self-sustaining oxidation process accompanied by the evolution of heat and light of varying intensities.\n
 Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN.\n"

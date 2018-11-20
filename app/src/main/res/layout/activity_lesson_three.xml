@@ -34,7 +34,7 @@
     <TextView
         android:id="@+id/textViewlessonthree1"
         style="@style/TextViewLessonSize"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="200dp"
         android:text="A fire is classified according to the fuel it consumes\n
 CLASS A\n
@@ -61,14 +61,14 @@ Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber an
     <TextView
         android:id="@+id/textViewlessonthree2"
         style="@style/TextViewLessonSize"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="150dp"
         android:text="CLASS B\n
 Flammable or combustible liquids such as gasoline, kerosene, paint, paint thinners and propane.\n
 "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonthreesecond"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlessonthreesecond" />
 
     <ImageView
         android:id="@+id/imageViewlessonthreethird"
@@ -87,7 +87,7 @@ Flammable or combustible liquids such as gasoline, kerosene, paint, paint thinne
     <TextView
         android:id="@+id/textViewlessonthree3"
         style="@style/TextViewLessonSize"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="150dp"
         android:text="CLASS C\n
 Energized electrical equipment, such as appliances, switches, panel boxes and power tools.\n
@@ -113,7 +113,7 @@ Energized electrical equipment, such as appliances, switches, panel boxes and po
     <TextView
         android:id="@+id/textViewlessonthree4"
         style="@style/TextViewLessonSize"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="170dp"
         android:text="CLASS D\n
 Certain combustible metals, such as magnesium, titanium, potassium and sodium. They may react violently with water or other chemicals, and must be handled with care.\n
@@ -139,7 +139,7 @@ Certain combustible metals, such as magnesium, titanium, potassium and sodium. T
     <TextView
         android:id="@+id/textViewlessonthree5"
         style="@style/TextViewLessonSize"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="130dp"
         android:text="CLASS K\n
 Fires involving combustible cooking fluids such as oils and fats.\n
@@ -165,7 +165,7 @@ Fires involving combustible cooking fluids such as oils and fats.\n
     <TextView
         android:id="@+id/textViewlessonthree6"
         style="@style/TextViewLessonSize"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="375dp"
         android:text="METHODS OF HEAT TRANSFER\n
 1. By Radiation\n
