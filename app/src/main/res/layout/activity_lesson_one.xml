@@ -58,17 +58,17 @@ The Tetrahedron of Fire\n"
 
         <ImageView
             android:id="@+id/imageViewlessononesecond"
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="250dp"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:srcCompat="@drawable/lessononesecond"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewlessonone1" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewlessonone1"
+            app:srcCompat="@drawable/lessononesecond" />
 
         <TextView
             android:id="@+id/textViewlessonone2"
