@@ -20,7 +20,7 @@ public class QuizMain extends AppCompatActivity {
         nBtnquizone.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(QuizMain.this, QuizOne.class));
+                startActivity(new Intent(QuizMain.this, TakeQuiz.class));
             }
         });
 
@@ -28,7 +28,7 @@ public class QuizMain extends AppCompatActivity {
         nBtnquiztwo.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(QuizMain.this, QuizTwo.class));
+                startActivity(new Intent(QuizMain.this, TakeQuiz2.class));
             }
         });
 
@@ -36,7 +36,7 @@ public class QuizMain extends AppCompatActivity {
         nBtnquizthree.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(QuizMain.this, QuizThree.class));
+                startActivity(new Intent(QuizMain.this, TakeQuiz3.class));
             }
         });
 
@@ -44,7 +44,7 @@ public class QuizMain extends AppCompatActivity {
         nBtnquizfour.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(QuizMain.this, QuizFour.class));
+                startActivity(new Intent(QuizMain.this, TakeQuiz4.class));
             }
         });
 
@@ -52,7 +52,7 @@ public class QuizMain extends AppCompatActivity {
         nBtnquizfive.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(QuizMain.this, QuizFive.class));
+                startActivity(new Intent(QuizMain.this, TakeQuiz5.class));
             }
         });
 

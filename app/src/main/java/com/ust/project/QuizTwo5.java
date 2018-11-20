@@ -12,13 +12,14 @@ public class QuizTwo5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_quiz_two5);
 
         ActionBar actionBarQuizTwo5 = getSupportActionBar();
         Button nBtnbackquiz25 = (Button)findViewById(R.id.quiztwoback5);
         nBtnbackquiz25.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(QuizTwo5.this, QuizTwo4.class));
+                startActivity(new Intent(QuizTwo5.this, QuizTwo3.class));
             }
         });
 

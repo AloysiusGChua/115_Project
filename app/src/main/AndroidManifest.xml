@@ -102,8 +102,7 @@
             android:name=".QuizTwo3"
             android:label="Quiz 2: Stages of Fire"
             android:parentActivityName=".QuizTwo2" />
-        <activity
-            android:name=".QuizTwo4"
+        <activity android:name=".QuizTwo4"
             android:label="Quiz 2: Stages of Fire"
             android:parentActivityName=".QuizTwo3" />
         <activity
@@ -161,23 +160,23 @@
         <activity
             android:name=".TakeQuiz"
             android:label="Quiz 1: Understanding the Nature of Fire"
-            android:parentActivityName=".LessonOne" />
+            android:parentActivityName=".QuizMain" />
         <activity
             android:name=".TakeQuiz2"
             android:label="Quiz 2: Stages of Fire"
-            android:parentActivityName=".LessonTwo" />
+            android:parentActivityName=".QuizMain" />
         <activity
             android:name=".TakeQuiz3"
             android:label="Quiz 3: Classes of Fire and Methods of Heat Transfer"
-            android:parentActivityName=".LessonThree" />
+            android:parentActivityName=".QuizMain" />
         <activity
             android:name=".TakeQuiz4"
             android:label="Quiz 4: Fire Safety Tips"
-            android:parentActivityName=".LessonFour" />
+            android:parentActivityName=".QuizMain" />
         <activity
             android:name=".TakeQuiz5"
             android:label="Quiz 5: Fire Safety First Aid"
-            android:parentActivityName=".LessonFive" />
+            android:parentActivityName=".QuizMain" />
         <activity
             android:name=".FinishQuiz"
             android:label="Quiz 1: Understanding the Nature of Fire"
@@ -198,26 +197,26 @@
             android:name=".FinishQuiz5"
             android:label="Quiz 5: Fire Safety First Aid"
             android:parentActivityName=".QuizFive5" />
-
-        <activity android:name=".AnswerQuiz1"
+        <activity
+            android:name=".AnswerQuiz1"
             android:label="Quiz Answer"
             android:parentActivityName=".FinishQuiz" />
-
-        <activity android:name=".AnswerQuiz2"
+        <activity
+            android:name=".AnswerQuiz2"
             android:label="Quiz Answer"
             android:parentActivityName=".FinishQuiz2" />
-
-        <activity android:name=".AnswerQuiz3"
+        <activity
+            android:name=".AnswerQuiz3"
             android:label="Quiz Answer"
             android:parentActivityName=".FinishQuiz3" />
-
-        <activity android:name=".AnswerQuiz4"
+        <activity
+            android:name=".AnswerQuiz4"
             android:label="Quiz Answer"
             android:parentActivityName=".FinishQuiz4" />
-
-        <activity android:name=".AnswerQuiz5"
+        <activity
+            android:name=".AnswerQuiz5"
             android:label="Quiz Answer"
-            android:parentActivityName=".FinishQuiz5" ></activity>
+            android:parentActivityName=".FinishQuiz5"></activity>
     </application>
 
 </manifest>
