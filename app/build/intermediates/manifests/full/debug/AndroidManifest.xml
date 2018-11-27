@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ust.project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/siklab"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/siklab"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ust.project.SplashScreen"
+            android:label="Siklab" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ust.project.MainActivity"
+            android:label="" />
+        <activity
+            android:name="com.ust.project.LessonMain"
+            android:label="LESSONS"
+            android:parentActivityName="com.ust.project.MainActivity" />
+        <activity
+            android:name="com.ust.project.LessonOne"
+            android:label="Lesson 1: Understanding the Nature of Fire"
+            android:parentActivityName="com.ust.project.LessonMain" />
+        <activity
+            android:name="com.ust.project.LessonTwo"
+            android:label="Lesson 2: Stages of Fire"
+            android:parentActivityName="com.ust.project.LessonMain" />
+        <activity
+            android:name="com.ust.project.LessonThree"
+            android:label="Lesson 3: Classes of Fire and Methods of Heat Transfer"
+            android:parentActivityName="com.ust.project.LessonMain" />
+        <activity
+            android:name="com.ust.project.LessonFour"
+            android:label="Lesson 4: Fire Safety Tips"
+            android:parentActivityName="com.ust.project.LessonMain" />
+        <activity
+            android:name="com.ust.project.LessonFive"
+            android:label="Lesson 5: Fire Safety First Aid"
+            android:parentActivityName="com.ust.project.LessonMain" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.ust.project.ProgressMain"
+            android:label="PROGRESS"
+            android:parentActivityName="com.ust.project.MainActivity" />
+        <activity
+            android:name="com.ust.project.QuizMain"
+            android:label="QUIZZES"
+            android:parentActivityName="com.ust.project.MainActivity" />
+        <activity
+            android:name="com.ust.project.QuizOne"
+            android:label="Quiz 1: Understanding the Nature of Fire"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.QuizTwo"
+            android:label="Quiz 2: Stages of Fire"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.QuizThree"
+            android:label="Quiz 3: Classes of Fire and Methods of Heat Transfer"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.QuizFour"
+            android:label="Quiz 4: Fire Safety Tips"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.QuizFive"
+            android:label="Quiz 5: Fire Safety First Aid"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.QuizOne2"
+            android:label="Quiz 1: Understanding the Nature of Fire"
+            android:parentActivityName="com.ust.project.QuizOne" />
+        <activity
+            android:name="com.ust.project.QuizOne3"
+            android:label="Quiz 1: Understanding the Nature of Fire"
+            android:parentActivityName="com.ust.project.QuizOne2" />
+        <activity
+            android:name="com.ust.project.QuizOne4"
+            android:label="Quiz 1: Understanding the Nature of Fire"
+            android:parentActivityName="com.ust.project.QuizOne3" />
+        <activity
+            android:name="com.ust.project.QuizOne5"
+            android:label="Quiz 1: Understanding the Nature of Fire"
+            android:parentActivityName="com.ust.project.QuizOne4" />
+        <activity
+            android:name="com.ust.project.QuizTwo2"
+            android:label="Quiz 2: Stages of Fire"
+            android:parentActivityName="com.ust.project.QuizTwo" />
+        <activity
+            android:name="com.ust.project.QuizTwo3"
+            android:label="Quiz 2: Stages of Fire"
+            android:parentActivityName="com.ust.project.QuizTwo2" />
+        <activity
+            android:name="com.ust.project.QuizTwo4"
+            android:label="Quiz 2: Stages of Fire"
+            android:parentActivityName="com.ust.project.QuizTwo3" />
+        <activity
+            android:name="com.ust.project.QuizTwo5"
+            android:label="Quiz 2: Stages of Fire"
+            android:parentActivityName="com.ust.project.QuizTwo4" />
+        <activity
+            android:name="com.ust.project.QuizThree2"
+            android:label="Quiz 3: Classes of Fire and Methods of Heat Transfer"
+            android:parentActivityName="com.ust.project.QuizThree" />
+        <activity
+            android:name="com.ust.project.QuizThree3"
+            android:label="Quiz 3: Classes of Fire and Methods of Heat Transfer"
+            android:parentActivityName="com.ust.project.QuizThree2" />
+        <activity
+            android:name="com.ust.project.QuizThree4"
+            android:label="Quiz 3: Classes of Fire and Methods of Heat Transfer"
+            android:parentActivityName="com.ust.project.QuizThree3" />
+        <activity
+            android:name="com.ust.project.QuizThree5"
+            android:label="Quiz 3: Classes of Fire and Methods of Heat Transfer"
+            android:parentActivityName="com.ust.project.QuizThree4" />
+        <activity
+            android:name="com.ust.project.QuizFour2"
+            android:label="Quiz 4: Fire Safety Tips"
+            android:parentActivityName="com.ust.project.QuizFour" />
+        <activity
+            android:name="com.ust.project.QuizFour3"
+            android:label="Quiz 4: Fire Safety Tips"
+            android:parentActivityName="com.ust.project.QuizFour2" />
+        <activity
+            android:name="com.ust.project.QuizFour4"
+            android:label="Quiz 4: Fire Safety Tips"
+            android:parentActivityName="com.ust.project.QuizFour3" />
+        <activity
+            android:name="com.ust.project.QuizFour5"
+            android:label="Quiz 4: Fire Safety Tips"
+            android:parentActivityName="com.ust.project.QuizFour4" />
+        <activity
+            android:name="com.ust.project.QuizFive2"
+            android:label="Quiz 5: Fire Safety First Aid"
+            android:parentActivityName="com.ust.project.QuizFive" />
+        <activity
+            android:name="com.ust.project.QuizFive3"
+            android:label="Quiz 5: Fire Safety First Aid"
+            android:parentActivityName="com.ust.project.QuizFive2" />
+        <activity
+            android:name="com.ust.project.QuizFive4"
+            android:label="Quiz 5: Fire Safety First Aid"
+            android:parentActivityName="com.ust.project.QuizFive3" />
+        <activity
+            android:name="com.ust.project.QuizFive5"
+            android:label="Quiz 5: Fire Safety First Aid"
+            android:parentActivityName="com.ust.project.QuizFive4" />
+        <activity
+            android:name="com.ust.project.TakeQuiz"
+            android:label="Quiz 1: Understanding the Nature of Fire"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.TakeQuiz2"
+            android:label="Quiz 2: Stages of Fire"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.TakeQuiz3"
+            android:label="Quiz 3: Classes of Fire and Methods of Heat Transfer"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.TakeQuiz4"
+            android:label="Quiz 4: Fire Safety Tips"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.TakeQuiz5"
+            android:label="Quiz 5: Fire Safety First Aid"
+            android:parentActivityName="com.ust.project.QuizMain" />
+        <activity
+            android:name="com.ust.project.FinishQuiz"
+            android:label="Quiz 1: Understanding the Nature of Fire"
+            android:parentActivityName="com.ust.project.QuizOne5" />
+        <activity
+            android:name="com.ust.project.FinishQuiz2"
+            android:label="Quiz 2: Stages of Fire"
+            android:parentActivityName="com.ust.project.QuizTwo5" />
+        <activity
+            android:name="com.ust.project.FinishQuiz3"
+            android:label="Quiz 3: Classes of Fire and Methods of Heat Transfer"
+            android:parentActivityName="com.ust.project.QuizThree5" />
+        <activity
+            android:name="com.ust.project.FinishQuiz4"
+            android:label="Quiz 4: Fire Safety Tips"
+            android:parentActivityName="com.ust.project.QuizFour5" />
+        <activity
+            android:name="com.ust.project.FinishQuiz5"
+            android:label="Quiz 5: Fire Safety First Aid"
+            android:parentActivityName="com.ust.project.QuizFive5" />
+        <activity
+            android:name="com.ust.project.AnswerQuiz1"
+            android:label="Quiz Answer"
+            android:parentActivityName="com.ust.project.FinishQuiz" />
+        <activity
+            android:name="com.ust.project.AnswerQuiz2"
+            android:label="Quiz Answer"
+            android:parentActivityName="com.ust.project.FinishQuiz2" />
+        <activity
+            android:name="com.ust.project.AnswerQuiz3"
+            android:label="Quiz Answer"
+            android:parentActivityName="com.ust.project.FinishQuiz3" />
+        <activity
+            android:name="com.ust.project.AnswerQuiz4"
+            android:label="Quiz Answer"
+            android:parentActivityName="com.ust.project.FinishQuiz4" />
+        <activity
+            android:name="com.ust.project.AnswerQuiz5"
+            android:label="Quiz Answer"
+            android:parentActivityName="com.ust.project.FinishQuiz5" />
+    </application>
+
+</manifest>

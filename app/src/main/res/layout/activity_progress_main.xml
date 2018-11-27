@@ -6,87 +6,130 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProgressMain">
-<android.support.constraint.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textViewprogress1"
-        style="@style/TextViewProgress"
-        android:text="You took"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
 
-    <ImageView
-        android:id="@+id/imageViewProgressPercent"
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/bg_progress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You took"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"/>
 
-    <TextView
-        android:id="@+id/textViewprogress2"
-        style="@style/TextViewProgress"
-        android:text="Of the Siklab Lessons"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewProgressPercent" />
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bg_quiz"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp">
 
-    <TextView
-        android:id="@+id/textViewprogress3"
-        style="@style/TextViewProgress"
-        android:text="Total Score: 0/25"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress2" />
+            <TextView
+                android:id="@+id/lesson_tracker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="80sp" />
 
-    <TextView
-        android:id="@+id/textViewprogress4"
-        style="@style/TextViewProgress"
-        android:text="Quiz 1: 0/5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress3" />
+        </RelativeLayout>
 
-    <TextView
-        android:id="@+id/textViewprogress5"
-        style="@style/TextViewProgress"
-        android:text="Quiz 2: 0/5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress4" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="of the Siklab Lessons"
+            android:textAlignment="center"/>
 
-    <TextView
-        android:id="@+id/textViewprogress6"
-        style="@style/TextViewProgress"
-        android:text="Quiz 3: 0/5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress5" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textViewprogress7"
-        style="@style/TextViewProgress"
-        android:text="Quiz 4: 0/5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress6" />
+    <!--<android.support.constraint.ConstraintLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
 
-    <TextView
-        android:id="@+id/textViewprogress8"
-        style="@style/TextViewProgress"
-        android:text="Quiz 5: 0/5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewprogress7" />
+    <!--<TextView-->
+        <!--android:id="@+id/textViewprogress1"-->
+        <!--style="@style/TextViewProgress"-->
+        <!--android:text="You took"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
 
-</android.support.constraint.ConstraintLayout>
+    <!--<ImageView-->
+        <!--android:id="@+id/imageViewProgressPercent"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:src="@drawable/bg_progress"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewprogress1"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewprogress2"-->
+        <!--style="@style/TextViewProgress"-->
+        <!--android:text="Of the Siklab Lesson"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/imageViewProgressPercent" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewprogress3"-->
+        <!--style="@style/TextViewProgress"-->
+        <!--android:text="Total Score: 0/25"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewprogress2" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewprogress4"-->
+        <!--style="@style/TextViewProgress"-->
+        <!--android:text="Quiz 1: 0/5"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewprogress3" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewprogress5"-->
+        <!--style="@style/TextViewProgress"-->
+        <!--android:text="Quiz 2: 0/5"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewprogress4" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewprogress6"-->
+        <!--style="@style/TextViewProgress"-->
+        <!--android:text="Quiz 3: 0/5"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewprogress5" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewprogress7"-->
+        <!--style="@style/TextViewProgress"-->
+        <!--android:text="Quiz 4: 0/5"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewprogress6" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewprogress8"-->
+        <!--style="@style/TextViewProgress"-->
+        <!--android:text="Quiz 5: 0/5"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewprogress7" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
 </ScrollView>

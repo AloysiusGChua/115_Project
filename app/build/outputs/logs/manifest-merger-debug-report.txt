@@ -1,0 +1,561 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4a3dd320918cca410e8aa2563787308\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\be62de7a4a7a25fba8151ce8b61ab9ab\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\d7c19cac2747dd7d094051c8229672e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\78159220232e68bc280b03f783e8256e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4959a3936b9a4fe0486f698884536dad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e4bd0a3edb5a27504b9007e01c2aefc3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b5297f493ea1935df2af637c304e2dc9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce2f5b8e4ac799f6a14696d9aab45e1d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\74842081a651b90fc7465a7639484647\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\42efde167ba2f798ff26ef246c45bab7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\090640ee094f2fadc5dd4893092b0c1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\75fd841e91d8396dddd0a8ef0ce35604\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\bab2aa5df189af0ef6d3e1d6c287bbb0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\eb18eab80f61dcd21ff517ce6de05f2f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\53b90cf92d4e048f2193a186b061240f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9997df1fb59bc76e4cac1e8a77a6ef74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\58d099fb93b63005a3ca69c24fdc7fe3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e313f71eeba8ef2ca11819789a3b3d2f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b1ed4324cf628ad2dfb2415deae8e2ee\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1e803893b335e8d2cdbade93c2117e7f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e2b416e3f40451d66662fb3fda247a62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\05ccad11f4643270e5cc9a9e17c75f6a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b719e81b99eec6b15c57bf814aba8897\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\61c61bfb3d0cf0896c22e931004b677d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9ea1e6e9ae972008db48aba44cedf69e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\43eae466173265b5585c8268d5c87e49\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d858bd6e8bf880024ed213bb13b99b2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30b2346fc6c1a6cad1b789eaf40f7206\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+	package
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-222:12
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:5:5-220:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\be62de7a4a7a25fba8151ce8b61ab9ab\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\be62de7a4a7a25fba8151ce8b61ab9ab\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:9:9-43
+	android:icon
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:7:9-38
+	android:allowBackup
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.ust.project.SplashScreen
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:14:13-35
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.ust.project.MainActivity
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:21:9-23:32
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:23:13-29
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:22:13-41
+activity#com.ust.project.LessonMain
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:24:9-27:58
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:27:13-55
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:25:13-39
+activity#com.ust.project.LessonOne
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:28:9-31:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:31:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:30:13-71
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:29:13-38
+activity#com.ust.project.LessonTwo
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:32:9-35:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:35:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:34:13-53
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:33:13-38
+activity#com.ust.project.LessonThree
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:36:9-39:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:39:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:38:13-83
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:37:13-40
+activity#com.ust.project.LessonFour
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:40:9-43:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:43:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:42:13-55
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:41:13-39
+activity#com.ust.project.LessonFive
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:44:9-47:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:47:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:46:13-60
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:45:13-39
+meta-data#preloaded_fonts
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:49:9-51:57
+	android:resource
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:50:13-43
+activity#com.ust.project.ProgressMain
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:53:9-56:58
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:56:13-55
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:54:13-41
+activity#com.ust.project.QuizMain
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:57:9-60:58
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:60:13-55
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:58:13-37
+activity#com.ust.project.QuizOne
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:61:9-64:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:64:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:63:13-69
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:62:13-36
+activity#com.ust.project.QuizTwo
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:65:9-68:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:68:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:67:13-51
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:66:13-36
+activity#com.ust.project.QuizThree
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:69:9-72:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:72:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:71:13-81
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:70:13-38
+activity#com.ust.project.QuizFour
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:73:9-76:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:76:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:75:13-53
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:74:13-37
+activity#com.ust.project.QuizFive
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:77:9-80:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:80:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:79:13-58
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:78:13-37
+activity#com.ust.project.QuizOne2
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:81:9-84:53
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:84:13-50
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:83:13-69
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:82:13-37
+activity#com.ust.project.QuizOne3
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:85:9-88:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:88:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:87:13-69
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:86:13-37
+activity#com.ust.project.QuizOne4
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:89:9-92:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:92:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:91:13-69
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:90:13-37
+activity#com.ust.project.QuizOne5
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:93:9-96:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:96:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:95:13-69
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:94:13-37
+activity#com.ust.project.QuizTwo2
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:97:9-100:53
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:100:13-50
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:99:13-51
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:98:13-37
+activity#com.ust.project.QuizTwo3
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:101:9-104:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:104:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:103:13-51
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:102:13-37
+activity#com.ust.project.QuizTwo4
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:105:9-107:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:107:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:106:13-51
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:105:19-43
+activity#com.ust.project.QuizTwo5
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:108:9-111:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:111:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:110:13-51
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:109:13-37
+activity#com.ust.project.QuizThree2
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:112:9-115:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:115:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:114:13-81
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:113:13-39
+activity#com.ust.project.QuizThree3
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:116:9-119:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:119:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:118:13-81
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:117:13-39
+activity#com.ust.project.QuizThree4
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:120:9-123:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:123:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:122:13-81
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:121:13-39
+activity#com.ust.project.QuizThree5
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:124:9-127:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:127:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:126:13-81
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:125:13-39
+activity#com.ust.project.QuizFour2
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:128:9-131:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:131:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:130:13-53
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:129:13-38
+activity#com.ust.project.QuizFour3
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:132:9-135:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:135:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:134:13-53
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:133:13-38
+activity#com.ust.project.QuizFour4
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:136:9-139:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:139:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:138:13-53
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:137:13-38
+activity#com.ust.project.QuizFour5
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:140:9-143:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:143:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:142:13-53
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:141:13-38
+activity#com.ust.project.QuizFive2
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:144:9-147:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:147:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:146:13-58
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:145:13-38
+activity#com.ust.project.QuizFive3
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:148:9-151:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:151:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:150:13-58
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:149:13-38
+activity#com.ust.project.QuizFive4
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:152:9-155:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:155:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:154:13-58
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:153:13-38
+activity#com.ust.project.QuizFive5
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:156:9-159:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:159:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:158:13-58
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:157:13-38
+activity#com.ust.project.TakeQuiz
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:160:9-163:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:163:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:162:13-69
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:161:13-37
+activity#com.ust.project.TakeQuiz2
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:164:9-167:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:167:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:166:13-51
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:165:13-38
+activity#com.ust.project.TakeQuiz3
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:168:9-171:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:171:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:170:13-81
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:169:13-38
+activity#com.ust.project.TakeQuiz4
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:172:9-175:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:175:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:174:13-53
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:173:13-38
+activity#com.ust.project.TakeQuiz5
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:176:9-179:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:179:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:178:13-58
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:177:13-38
+activity#com.ust.project.FinishQuiz
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:180:9-183:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:183:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:182:13-69
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:181:13-39
+activity#com.ust.project.FinishQuiz2
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:184:9-187:54
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:187:13-51
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:186:13-51
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:185:13-40
+activity#com.ust.project.FinishQuiz3
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:188:9-191:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:191:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:190:13-81
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:189:13-40
+activity#com.ust.project.FinishQuiz4
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:192:9-195:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:195:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:194:13-53
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:193:13-40
+activity#com.ust.project.FinishQuiz5
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:196:9-199:55
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:199:13-52
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:198:13-58
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:197:13-40
+activity#com.ust.project.AnswerQuiz1
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:200:9-203:56
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:203:13-53
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:202:13-40
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:201:13-40
+activity#com.ust.project.AnswerQuiz2
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:204:9-207:57
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:207:13-54
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:206:13-40
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:205:13-40
+activity#com.ust.project.AnswerQuiz3
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:208:9-211:57
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:211:13-54
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:210:13-40
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:209:13-40
+activity#com.ust.project.AnswerQuiz4
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:212:9-215:57
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:215:13-54
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:214:13-40
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:213:13-40
+activity#com.ust.project.AnswerQuiz5
+ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:216:9-219:66
+	android:parentActivityName
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:219:13-54
+	android:label
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:218:13-40
+	android:name
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:217:13-40
+uses-sdk
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4a3dd320918cca410e8aa2563787308\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4a3dd320918cca410e8aa2563787308\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\be62de7a4a7a25fba8151ce8b61ab9ab\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\be62de7a4a7a25fba8151ce8b61ab9ab\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\d7c19cac2747dd7d094051c8229672e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\d7c19cac2747dd7d094051c8229672e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\78159220232e68bc280b03f783e8256e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\78159220232e68bc280b03f783e8256e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4959a3936b9a4fe0486f698884536dad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4959a3936b9a4fe0486f698884536dad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e4bd0a3edb5a27504b9007e01c2aefc3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e4bd0a3edb5a27504b9007e01c2aefc3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b5297f493ea1935df2af637c304e2dc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b5297f493ea1935df2af637c304e2dc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce2f5b8e4ac799f6a14696d9aab45e1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce2f5b8e4ac799f6a14696d9aab45e1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\74842081a651b90fc7465a7639484647\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\74842081a651b90fc7465a7639484647\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\42efde167ba2f798ff26ef246c45bab7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\42efde167ba2f798ff26ef246c45bab7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\090640ee094f2fadc5dd4893092b0c1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\090640ee094f2fadc5dd4893092b0c1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\75fd841e91d8396dddd0a8ef0ce35604\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\75fd841e91d8396dddd0a8ef0ce35604\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\bab2aa5df189af0ef6d3e1d6c287bbb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\bab2aa5df189af0ef6d3e1d6c287bbb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\eb18eab80f61dcd21ff517ce6de05f2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\eb18eab80f61dcd21ff517ce6de05f2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\53b90cf92d4e048f2193a186b061240f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\53b90cf92d4e048f2193a186b061240f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9997df1fb59bc76e4cac1e8a77a6ef74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9997df1fb59bc76e4cac1e8a77a6ef74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\58d099fb93b63005a3ca69c24fdc7fe3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\58d099fb93b63005a3ca69c24fdc7fe3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e313f71eeba8ef2ca11819789a3b3d2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e313f71eeba8ef2ca11819789a3b3d2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b1ed4324cf628ad2dfb2415deae8e2ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b1ed4324cf628ad2dfb2415deae8e2ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1e803893b335e8d2cdbade93c2117e7f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1e803893b335e8d2cdbade93c2117e7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e2b416e3f40451d66662fb3fda247a62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e2b416e3f40451d66662fb3fda247a62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\05ccad11f4643270e5cc9a9e17c75f6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\05ccad11f4643270e5cc9a9e17c75f6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b719e81b99eec6b15c57bf814aba8897\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b719e81b99eec6b15c57bf814aba8897\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\61c61bfb3d0cf0896c22e931004b677d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\61c61bfb3d0cf0896c22e931004b677d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9ea1e6e9ae972008db48aba44cedf69e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9ea1e6e9ae972008db48aba44cedf69e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\43eae466173265b5585c8268d5c87e49\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\43eae466173265b5585c8268d5c87e49\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d858bd6e8bf880024ed213bb13b99b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d858bd6e8bf880024ed213bb13b99b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30b2346fc6c1a6cad1b789eaf40f7206\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30b2346fc6c1a6cad1b789eaf40f7206\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
