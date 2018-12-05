@@ -1,303 +1,303 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4a3dd320918cca410e8aa2563787308\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\d7c19cac2747dd7d094051c8229672e7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4959a3936b9a4fe0486f698884536dad\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e4bd0a3edb5a27504b9007e01c2aefc3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b5297f493ea1935df2af637c304e2dc9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce2f5b8e4ac799f6a14696d9aab45e1d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\74842081a651b90fc7465a7639484647\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\42efde167ba2f798ff26ef246c45bab7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\090640ee094f2fadc5dd4893092b0c1b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\75fd841e91d8396dddd0a8ef0ce35604\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\bab2aa5df189af0ef6d3e1d6c287bbb0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\eb18eab80f61dcd21ff517ce6de05f2f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\53b90cf92d4e048f2193a186b061240f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9997df1fb59bc76e4cac1e8a77a6ef74\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\58d099fb93b63005a3ca69c24fdc7fe3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e313f71eeba8ef2ca11819789a3b3d2f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b1ed4324cf628ad2dfb2415deae8e2ee\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1e803893b335e8d2cdbade93c2117e7f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e2b416e3f40451d66662fb3fda247a62\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\05ccad11f4643270e5cc9a9e17c75f6a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b719e81b99eec6b15c57bf814aba8897\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\61c61bfb3d0cf0896c22e931004b677d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9ea1e6e9ae972008db48aba44cedf69e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\43eae466173265b5585c8268d5c87e49\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d858bd6e8bf880024ed213bb13b99b2\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30b2346fc6c1a6cad1b789eaf40f7206\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4ea6267c52f348ef9446ac101cae267\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8975b6dd6fec9dd0a77d109c6266a3b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4347491847de5ba5ed575495b1eb1a95\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\bf8e642edd9a6829a895cf4386c160d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c6233b62becea12713cbf5170f0d396c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0912b96512452c3ea4a305bcbc82b512\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\43bcc7db17bef7b38a7a426f4d07fd54\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\f5924363a19f160f5d0c98e8601998e0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55cfba1ab48d509d1bfb6be1f65dd8aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9fdb65e39607ae5975b5daf5c1bc088f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5e07ff3495625c49f50896eac0f5a1be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4a8a13d95b51f64b9e87b872b3f0fe97\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\71c1553603c49b359b4948fce80cb8e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\69742a86a06a1eab15336fec97221056\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\27e138a00a5c9f34e5eb691fdf0000f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c68455d73b4649ace954e3fc606daeba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\96227535b565431e6822ce7fe4748622\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\43ffdede859881e170b586e3b5843ce5\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7dd57ddf2162ba953e396c587e5fde3a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c240888ddbb197462e218a194dd79fc2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\9576fdcbb44d0ed0e73b200ae2dc1896\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\99a47c0db9f5522e6c054b2d626e539c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1f798d671f3f8ce427f28bfeb8adad87\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\40514f881d39dddbd026dbe2e1b2c4b7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\fd441318ca3379241b003d3094c7fded\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\dd6b7dd5e9210fd156f979b842e4f3de\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ddd103bcf7d1a3f98168372df1595f9a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d38ea1f21e555945e8eb59e56c6e051a\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
 	package
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:1-125:12
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:5:5-123:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:5:5-123:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\96227535b565431e6822ce7fe4748622\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\96227535b565431e6822ce7fe4748622\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\43ffdede859881e170b586e3b5843ce5\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\43ffdede859881e170b586e3b5843ce5\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\96227535b565431e6822ce7fe4748622\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:7:9-38
 	android:allowBackup
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.ust.project.siklab.ActivitySplash
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:13:9-21:20
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:13:9-21:20
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:15:13-45
 	android:theme
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:16:13-56
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:16:13-56
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:14:13-43
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:14:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:17:13-20:29
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.ust.project.siklab.ActivityHome
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:23:9-26:58
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:23:9-26:58
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:25:13-33
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:25:13-33
 	android:theme
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:26:13-56
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:24:13-41
 activity#com.ust.project.siklab.ActivityLessons
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:28:9-31:57
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:28:9-31:57
 	android:parentActivityName
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:31:13-55
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:31:13-55
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:30:13-36
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:29:13-44
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:29:13-44
 activity#com.ust.project.siklab.Lessons.ActivityLessonOne
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:34:9-37:61
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:34:9-37:61
 	android:parentActivityName
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:37:13-58
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:37:13-58
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:36:13-39
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:36:13-39
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:35:13-54
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:35:13-54
 activity#com.ust.project.siklab.Lessons.ActivityLessonTwo
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:39:9-42:61
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:39:9-42:61
 	android:parentActivityName
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:42:13-58
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:42:13-58
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:41:13-39
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:41:13-39
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:40:13-54
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:40:13-54
 activity#com.ust.project.siklab.Lessons.ActivityLessonThree
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:44:9-47:61
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:44:9-47:61
 	android:parentActivityName
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:47:13-58
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:47:13-58
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:46:13-41
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:46:13-41
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:45:13-56
 activity#com.ust.project.siklab.Lessons.ActivityLessonFour
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:49:9-52:61
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:49:9-52:61
 	android:parentActivityName
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:52:13-58
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:52:13-58
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:51:13-40
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:51:13-40
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:50:13-55
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:50:13-55
 activity#com.ust.project.siklab.Lessons.ActivityLessonFive
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:54:9-57:61
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:54:9-57:61
 	android:parentActivityName
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:57:13-58
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:57:13-58
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:56:13-40
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:56:13-40
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:55:13-55
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:55:13-55
 activity#com.ust.project.siklab.ActivityTakeQuiz
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:60:9-62:41
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:60:9-62:41
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:62:13-38
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:62:13-38
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:61:13-45
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:61:13-45
 activity#com.ust.project.siklab.Quizzes.ActivityQuizOne
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:65:9-67:40
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:65:9-67:40
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:67:13-37
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:66:13-52
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:66:13-52
 activity#com.ust.project.siklab.Quizzes.ActivityQuizTwo
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:69:9-71:40
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:69:9-71:40
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:71:13-37
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:71:13-37
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:70:13-52
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:70:13-52
 activity#com.ust.project.siklab.Quizzes.ActivityQuizThree
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:73:9-75:42
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:73:9-75:42
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:75:13-39
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:75:13-39
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:74:13-54
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:74:13-54
 activity#com.ust.project.siklab.Quizzes.ActivityQuizFour
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:77:9-79:41
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:77:9-79:41
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:79:13-38
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:79:13-38
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:78:13-53
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:78:13-53
 activity#com.ust.project.siklab.Quizzes.ActivityQuizFive
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:81:9-83:41
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:81:9-83:41
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:83:13-38
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:83:13-38
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:82:13-53
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:82:13-53
 activity#com.ust.project.siklab.Results.ActivityResultOne
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:87:9-89:41
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:87:9-89:41
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:89:13-39
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:89:13-39
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:88:13-54
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:88:13-54
 activity#com.ust.project.siklab.Results.ActivityResultTwo
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:91:9-93:41
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:91:9-93:41
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:93:13-39
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:93:13-39
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:92:13-54
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:92:13-54
 activity#com.ust.project.siklab.Results.ActivityResultThree
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:95:9-97:43
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:95:9-97:43
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:97:13-41
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:97:13-41
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:96:13-56
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:96:13-56
 activity#com.ust.project.siklab.Results.ActivityResultFour
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:99:9-101:42
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:99:9-101:42
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:101:13-40
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:101:13-40
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:100:13-55
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:100:13-55
 activity#com.ust.project.siklab.Results.ActivityResultFive
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:103:9-105:42
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:103:9-105:42
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:105:13-40
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:105:13-40
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:104:13-55
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:104:13-55
 activity#com.ust.project.siklab.ActivityAnswers
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:108:9-110:39
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:108:9-110:39
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:110:13-36
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:110:13-36
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:109:13-44
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:109:13-44
 activity#com.ust.project.siklab.ActivityQuizzes
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:112:9-115:57
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:112:9-115:57
 	android:parentActivityName
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:115:13-55
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:115:13-55
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:114:13-36
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:114:13-36
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:113:13-44
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:113:13-44
 activity#com.ust.project.siklab.ActivityProgress
-ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:117:9-120:57
+ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:117:9-120:57
 	android:parentActivityName
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:120:13-55
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:120:13-55
 	android:label
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:119:13-37
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:119:13-37
 	android:name
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml:118:13-45
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml:118:13-45
 uses-sdk
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4a3dd320918cca410e8aa2563787308\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4a3dd320918cca410e8aa2563787308\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\d7c19cac2747dd7d094051c8229672e7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\d7c19cac2747dd7d094051c8229672e7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4959a3936b9a4fe0486f698884536dad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4959a3936b9a4fe0486f698884536dad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e4bd0a3edb5a27504b9007e01c2aefc3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e4bd0a3edb5a27504b9007e01c2aefc3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b5297f493ea1935df2af637c304e2dc9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b5297f493ea1935df2af637c304e2dc9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce2f5b8e4ac799f6a14696d9aab45e1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce2f5b8e4ac799f6a14696d9aab45e1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\74842081a651b90fc7465a7639484647\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\74842081a651b90fc7465a7639484647\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\42efde167ba2f798ff26ef246c45bab7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\42efde167ba2f798ff26ef246c45bab7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\090640ee094f2fadc5dd4893092b0c1b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\090640ee094f2fadc5dd4893092b0c1b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\75fd841e91d8396dddd0a8ef0ce35604\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\75fd841e91d8396dddd0a8ef0ce35604\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\bab2aa5df189af0ef6d3e1d6c287bbb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\bab2aa5df189af0ef6d3e1d6c287bbb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\eb18eab80f61dcd21ff517ce6de05f2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\eb18eab80f61dcd21ff517ce6de05f2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\53b90cf92d4e048f2193a186b061240f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\53b90cf92d4e048f2193a186b061240f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9997df1fb59bc76e4cac1e8a77a6ef74\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9997df1fb59bc76e4cac1e8a77a6ef74\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\58d099fb93b63005a3ca69c24fdc7fe3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\58d099fb93b63005a3ca69c24fdc7fe3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e313f71eeba8ef2ca11819789a3b3d2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e313f71eeba8ef2ca11819789a3b3d2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bc620641cffd5b8276aa766479380a21\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4929a0c484abce3aad4c3ac3ce9b28dc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b1ed4324cf628ad2dfb2415deae8e2ee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b1ed4324cf628ad2dfb2415deae8e2ee\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1e803893b335e8d2cdbade93c2117e7f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1e803893b335e8d2cdbade93c2117e7f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e2b416e3f40451d66662fb3fda247a62\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e2b416e3f40451d66662fb3fda247a62\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\05ccad11f4643270e5cc9a9e17c75f6a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\05ccad11f4643270e5cc9a9e17c75f6a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b719e81b99eec6b15c57bf814aba8897\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b719e81b99eec6b15c57bf814aba8897\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\61c61bfb3d0cf0896c22e931004b677d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\61c61bfb3d0cf0896c22e931004b677d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9ea1e6e9ae972008db48aba44cedf69e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9ea1e6e9ae972008db48aba44cedf69e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\43eae466173265b5585c8268d5c87e49\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\43eae466173265b5585c8268d5c87e49\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d858bd6e8bf880024ed213bb13b99b2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d858bd6e8bf880024ed213bb13b99b2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30b2346fc6c1a6cad1b789eaf40f7206\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Arianne PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30b2346fc6c1a6cad1b789eaf40f7206\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4ea6267c52f348ef9446ac101cae267\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d4ea6267c52f348ef9446ac101cae267\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8975b6dd6fec9dd0a77d109c6266a3b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8975b6dd6fec9dd0a77d109c6266a3b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4347491847de5ba5ed575495b1eb1a95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4347491847de5ba5ed575495b1eb1a95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\bf8e642edd9a6829a895cf4386c160d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\bf8e642edd9a6829a895cf4386c160d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c6233b62becea12713cbf5170f0d396c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c6233b62becea12713cbf5170f0d396c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0912b96512452c3ea4a305bcbc82b512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0912b96512452c3ea4a305bcbc82b512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\43bcc7db17bef7b38a7a426f4d07fd54\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\43bcc7db17bef7b38a7a426f4d07fd54\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\f5924363a19f160f5d0c98e8601998e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\f5924363a19f160f5d0c98e8601998e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55cfba1ab48d509d1bfb6be1f65dd8aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55cfba1ab48d509d1bfb6be1f65dd8aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9fdb65e39607ae5975b5daf5c1bc088f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9fdb65e39607ae5975b5daf5c1bc088f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5e07ff3495625c49f50896eac0f5a1be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5e07ff3495625c49f50896eac0f5a1be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4a8a13d95b51f64b9e87b872b3f0fe97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4a8a13d95b51f64b9e87b872b3f0fe97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\71c1553603c49b359b4948fce80cb8e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\71c1553603c49b359b4948fce80cb8e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\69742a86a06a1eab15336fec97221056\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\69742a86a06a1eab15336fec97221056\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\27e138a00a5c9f34e5eb691fdf0000f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\27e138a00a5c9f34e5eb691fdf0000f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c68455d73b4649ace954e3fc606daeba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c68455d73b4649ace954e3fc606daeba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\96227535b565431e6822ce7fe4748622\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\96227535b565431e6822ce7fe4748622\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\43ffdede859881e170b586e3b5843ce5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\43ffdede859881e170b586e3b5843ce5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7dd57ddf2162ba953e396c587e5fde3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7dd57ddf2162ba953e396c587e5fde3a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c240888ddbb197462e218a194dd79fc2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c240888ddbb197462e218a194dd79fc2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\9576fdcbb44d0ed0e73b200ae2dc1896\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\9576fdcbb44d0ed0e73b200ae2dc1896\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\99a47c0db9f5522e6c054b2d626e539c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\99a47c0db9f5522e6c054b2d626e539c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1f798d671f3f8ce427f28bfeb8adad87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1f798d671f3f8ce427f28bfeb8adad87\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\40514f881d39dddbd026dbe2e1b2c4b7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\40514f881d39dddbd026dbe2e1b2c4b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\fd441318ca3379241b003d3094c7fded\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\fd441318ca3379241b003d3094c7fded\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\dd6b7dd5e9210fd156f979b842e4f3de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\dd6b7dd5e9210fd156f979b842e4f3de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ddd103bcf7d1a3f98168372df1595f9a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ddd103bcf7d1a3f98168372df1595f9a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d38ea1f21e555945e8eb59e56c6e051a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\aloy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d38ea1f21e555945e8eb59e56c6e051a\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Arianne PC\Desktop\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloy\AndroidStudioProjects\Latest Push 12-5-2018\115_Project\app\src\main\AndroidManifest.xml
