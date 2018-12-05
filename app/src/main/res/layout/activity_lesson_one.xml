@@ -1,94 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".LessonOne">
+    android:layout_height="match_parent">
 
-    <android.support.constraint.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textViewlessononetitle"
-            style="@style/TextViewLessons"
-            android:text="Understanding the Nature of Fire"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageViewlessononefirst"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/lessononefirst"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewlessononetitle"/>
+            <TextView
+                android:id="@+id/lesson_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title Goes Here"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="22dp"/>
 
-        <TextView
-            android:id="@+id/textViewlessonone1"
-            style="@style/TextViewLessonSize"
-            android:layout_width="350dp"
-            android:layout_height="1065dp"
-            android:text="Fire itself is a chemical phenomenon, all fuels are (synthetic or organic) chemical compounds and when fuel is ignited, the result is a chemical reaction with predictable physical effects.\n
-- A small fire can produce enough smoke to fill a building in minutes. Smoke results in:\n
-- Teary eyes\n
-- Choking sensation\n
-- Impaired judgment due to Carbon Monoxide (CO)\n
-- Loss of spatial recognition\n
-- Sedation effect - Respiratory failure\n
-- Within minutes, air temperature in a burning room can reach 300 degrees Celsius. This temperature is hot enough to melt clothes, skin and scorch your lungs in one breathe.\n
-- Temperatures can climb to between 650-760 degrees Celsius.\n
-- Most people who die in fires, die from breathing smoke and toxic gases. Carbon Oxide, Hydrogen Cyanide, Ammonia and hundreds of other irritants attack your eyes, nose, throat and lungs. They numb your senses and leave you dazed.\n\n
-Bureau of Fire Protection\n
-- Through the enactment of the RA 6975, also known as the DILG Act of 1990, the Fire Service was separated from the PC-INP as a separate and distinct agency as Bureau of Fire Protection on August 2, 1991.\n\n
-- BFP is mandated to prevent  and suppress destructive fires, conduct investigation, provide emergency medical and rescue services and enforce the Republic Act 9514.\n\n
-The Tetrahedron of Fire\n"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewlessononefirst" />
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessononefirst"/>
 
-        <ImageView
-            android:id="@+id/imageViewlessononesecond"
-            android:layout_width="300dp"
-            android:layout_height="250dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewlessonone1"
-            app:srcCompat="@drawable/lessononesecond" />
+            <TextView
+                android:text="@string/lesson_one_paragraph_one"
+                style="@style/paragraphStyle"/>
 
-        <TextView
-            android:id="@+id/textViewlessonone2"
-            style="@style/TextViewLessonSize"
-            android:layout_width="350dp"
-            android:layout_height="200dp"
-            android:text="The diffusion flame process (fire) is a rapid self-sustaining oxidation process accompanied by the evolution of heat and light of varying intensities.\n
-Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN.\n"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewlessononesecond" />
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessononesecond"/>
 
-        <Button
-            android:id="@+id/completelessonone"
-            style="@style/RedRoundedButton"
-            android:background="@drawable/btn_redroundedbutton"
-            android:text="Complete Lesson"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewlessonone2" />
+            <TextView
+                android:text="@string/lesson_one_paragraph_two"
+                style="@style/paragraphStyle"/>
 
-    </android.support.constraint.ConstraintLayout>
-</ScrollView>
+            <Button
+                android:id="@+id/complete_btn"
+                android:text="Complete Lesson"
+                style="@style/buttonStyle"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

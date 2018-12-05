@@ -1,153 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <array name="com_google_android_gms_fonts_certs">
-        <item>@array/com_google_android_gms_fonts_certs_dev</item>
-        <item>@array/com_google_android_gms_fonts_certs_prod</item>
-    </array>
-    <string-array name="com_google_android_gms_fonts_certs_dev">
-        <item>
-            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
-        </item>
+    <string-array name="lesson_five_questions">
+        <item>Monitor breathing as ________ of the airways can occur up to 24 hours after the initial burn.</item>
+        <item>If the casualty has to be transferred to hospital, make sure you ___________________.</item>
+        <item>The best way to be “fire safe” is to make sure that fires never happen</item>
+        <item>Which of these is not one of the symptoms to deliver the casualty to the Emergency Department?</item>
+        <item>If clothing is burning, which of the following should you do?</item>
     </string-array>
-    <string-array name="com_google_android_gms_fonts_certs_prod">
-        <item>
-            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
-        </item>
+    <string-array name="lesson_five_quiz_five_options">
+        <item>Use fire extinguisher</item>
+        <item>Throw water</item>
+        <item>Have the casualty roll on the ground</item>
     </string-array>
-    <array name="preloaded_fonts" translatable="false">
-        <item>@font/comfortaa</item>
-        <item>@font/comfortaa_light</item>
-    </array>
-    <attr format="boolean" name="barrierAllowsGoneWidgets"/>
-    <attr format="enum" name="barrierDirection">
-        <enum name="left" value="0"/>
-        <enum name="right" value="1"/>
-        <enum name="top" value="2"/>
-        <enum name="bottom" value="3"/>
-        <enum name="start" value="5"/>
-        <enum name="end" value="6"/>
-    </attr>
-    <attr format="reference" name="cardViewStyle"/>
-    <attr format="boolean" name="chainUseRtl"/>
-    <attr format="reference" name="constraintSet"/>
-    <attr format="string" name="constraint_referenced_ids"/>
-    <attr format="reference" name="content"/>
+    <string-array name="lesson_five_quiz_four_options">
+        <item>Hard Coughing</item>
+        <item>Hoarse Voice</item>
+        <item>Casualty appears to be confused</item>
+    </string-array>
+    <string-array name="lesson_five_quiz_one_options">
+        <item>Rupture</item>
+        <item>Blockage</item>
+        <item>Swelling</item>
+    </string-array>
+    <string-array name="lesson_five_quiz_three_options">
+        <item>Prevention</item>
+        <item>Detection</item>
+        <item>Evacuation</item>
+    </string-array>
+    <string-array name="lesson_five_quiz_two_options">
+        <item>Call for an Ambulance</item>
+        <item>Do CPR First</item>
+        <item>Check if victim has injuries</item>
+    </string-array>
+    <string-array name="lesson_four_questions">
+        <item>Ensure complete ________ of ALL fire brigade members during Fire Safety Seminars and Drills.</item>
+        <item>Familiarize and keep emergency _______ marked, lighted and free from any obstruction.</item>
+        <item>Identify and ________ fire hazards and unsafe work practices.</item>
+        <item>Maintain proper _______________.</item>
+        <item>Do not store large volume of combustible liquids without proper _______________ and fire protection.</item>
+    </string-array>
+    <string-array name="lesson_four_quiz_five_options">
+        <item>Approval</item>
+        <item>Clearance/Permit</item>
+        <item>Agreement</item>
+    </string-array>
+    <string-array name="lesson_four_quiz_four_options">
+        <item>Grooming</item>
+        <item>Order</item>
+        <item>Housekeeping</item>
+    </string-array>
+    <string-array name="lesson_four_quiz_one_options">
+        <item>Performance</item>
+        <item>Attendance</item>
+        <item>Names</item>
+    </string-array>
+    <string-array name="lesson_four_quiz_three_options">
+        <item>Investigate</item>
+        <item>Witness</item>
+        <item>Report</item>
+    </string-array>
+    <string-array name="lesson_four_quiz_two_options">
+        <item>Exits</item>
+        <item>Fire Extinguishers</item>
+        <item>Contacts</item>
+    </string-array>
+    <string-array name="lesson_list">
+        <item>Understanding the Nature of Fire</item>
+        <item>Stages of Fire</item>
+        <item>Classes of Fire and Methods of Heat Transfer</item>
+        <item>Fire Safety Tips</item>
+        <item>Fire Safety First Aid</item>
+    </string-array>
+    <string-array name="lesson_one_questions">
+        <item>A fire will double every _______ seconds.</item>
+        <item>Also known as DILG Act of 1990 that recognized BFP as a separate and distinct agency.</item>
+        <item>The three basic elements of fire are Fuel, Oxygen and _______.</item>
+        <item>Within minutes, _______ temperature in a burning room can reach 300 degrees Celsius.</item>
+        <item>The cause why most people die in fire incidents.</item>
+    </string-array>
+    <string-array name="lesson_one_quiz_five_options">
+        <item>Burns</item>
+        <item>Injuries</item>
+        <item>Breathing Smoke</item>
+    </string-array>
+    <string-array name="lesson_one_quiz_four_options">
+        <item>Fire</item>
+        <item>Air</item>
+        <item>Earth</item>
+    </string-array>
+    <string-array name="lesson_one_quiz_one_options">
+        <item>10</item>
+        <item>60</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="lesson_one_quiz_three_options">
+        <item>Heat</item>
+        <item>Water</item>
+        <item>Chemicals</item>
+    </string-array>
+    <string-array name="lesson_one_quiz_two_options">
+        <item>RA 10173</item>
+        <item>RA 6975</item>
+        <item>RA 2039</item>
+    </string-array>
+    <string-array name="lesson_three_questions">
+        <item>Fires involving combustible cooking fluids such as oils and fats.</item>
+        <item>The most life-threatening method of Heat Transfer.</item>
+        <item>Energized electrical equipment, such as appliances, switches, panel boxes and power tools.</item>
+        <item>Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber and some plastics.</item>
+        <item>Method of Heat Transfer with heat rays causing nearby combustible objects to burst into flames.</item>
+    </string-array>
+    <string-array name="lesson_three_quiz_five_options">
+        <item>Conduction/Direct Contact</item>
+        <item>Convection</item>
+        <item>Radiation</item>
+    </string-array>
+    <string-array name="lesson_three_quiz_four_options">
+        <item>Class A</item>
+        <item>CLass D</item>
+        <item>Class C</item>
+    </string-array>
+    <string-array name="lesson_three_quiz_one_options">
+        <item>Class A</item>
+        <item>Class C</item>
+        <item>Class K</item>
+    </string-array>
+    <string-array name="lesson_three_quiz_three_options">
+        <item>Class B</item>
+        <item>Class C</item>
+        <item>Class D</item>
+    </string-array>
+    <string-array name="lesson_three_quiz_two_options">
+        <item>Condution/Direct Contact</item>
+        <item>Convection</item>
+        <item>Radiation</item>
+    </string-array>
+    <string-array name="lesson_two_questions">
+        <item>Stage where most fire is consumed.</item>
+        <item>Stage where there is an increasing level of smoke with decreased visibility.</item>
+        <item>Stage where fire is generally confined to the fuel that initially started.</item>
+        <item>Stage where all combustibles materials present are continuously burning.</item>
+        <item>Stage where oxygen level decreased and the fuel is already dried out.</item>
+    </string-array>
+    <string-array name="lesson_two_quiz_five_options">
+        <item>Fully Developed</item>
+        <item>Ignition</item>
+        <item>Growth</item>
+    </string-array>
+    <string-array name="lesson_two_quiz_four_options">
+        <item>Fully Developed</item>
+        <item>Ignition</item>
+        <item>Growth</item>
+    </string-array>
+    <string-array name="lesson_two_quiz_one_options">
+        <item>Decay</item>
+        <item>Ignition</item>
+        <item>Fully Developed</item>
+    </string-array>
+    <string-array name="lesson_two_quiz_three_options">
+        <item>Fully Developed</item>
+        <item>Ignition</item>
+        <item>Growth</item>
+    </string-array>
+    <string-array name="lesson_two_quiz_two_options">
+        <item>Flash Over</item>
+        <item>Growth</item>
+        <item>Fully Developed</item>
+    </string-array>
     <attr format="reference" name="coordinatorLayoutStyle"/>
     <attr format="reference" name="drawerArrowStyle"/>
-    <attr name="emptyVisibility">
-        <enum name="gone" value="0"/>
-        <enum name="invisible" value="1"/>
-    </attr>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <attr format="boolean" name="layout_constrainedHeight"/>
-    <attr format="boolean" name="layout_constrainedWidth"/>
-    <attr format="integer" name="layout_constraintBaseline_creator"/>
-    <attr format="reference|enum" name="layout_constraintBaseline_toBaselineOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintBottom_creator"/>
-    <attr format="reference|enum" name="layout_constraintBottom_toBottomOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintBottom_toTopOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference" name="layout_constraintCircle"/>
-    <attr format="integer" name="layout_constraintCircleAngle"/>
-    <attr format="dimension" name="layout_constraintCircleRadius"/>
-    <attr format="string" name="layout_constraintDimensionRatio"/>
-    <attr format="reference|enum" name="layout_constraintEnd_toEndOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintEnd_toStartOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="dimension" name="layout_constraintGuide_begin"/>
-    <attr format="dimension" name="layout_constraintGuide_end"/>
-    <attr format="float" name="layout_constraintGuide_percent"/>
-    <attr name="layout_constraintHeight_default">
-        <enum name="spread" value="0"/>
-        <enum name="wrap" value="1"/>
-        <enum name="percent" value="2"/>
-    </attr>
-    <attr format="dimension|enum" name="layout_constraintHeight_max">
-        <enum name="wrap" value="-2"/>
-    </attr>
-    <attr format="dimension|enum" name="layout_constraintHeight_min">
-        <enum name="wrap" value="-2"/>
-    </attr>
-    <attr format="float" name="layout_constraintHeight_percent"/>
-    <attr format="float" name="layout_constraintHorizontal_bias"/>
-    <attr format="enum" name="layout_constraintHorizontal_chainStyle">
-        <enum name="spread" value="0"/>
-        <enum name="spread_inside" value="1"/>
-        <enum name="packed" value="2"/>
-    </attr>
-    <attr format="float" name="layout_constraintHorizontal_weight"/>
-    <attr format="integer" name="layout_constraintLeft_creator"/>
-    <attr format="reference|enum" name="layout_constraintLeft_toLeftOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintLeft_toRightOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintRight_creator"/>
-    <attr format="reference|enum" name="layout_constraintRight_toLeftOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintRight_toRightOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintStart_toEndOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintStart_toStartOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintTop_creator"/>
-    <attr format="reference|enum" name="layout_constraintTop_toBottomOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintTop_toTopOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="float" name="layout_constraintVertical_bias"/>
-    <attr format="enum" name="layout_constraintVertical_chainStyle">
-        <enum name="spread" value="0"/>
-        <enum name="spread_inside" value="1"/>
-        <enum name="packed" value="2"/>
-    </attr>
-    <attr format="float" name="layout_constraintVertical_weight"/>
-    <attr name="layout_constraintWidth_default">
-        <enum name="spread" value="0"/>
-        <enum name="wrap" value="1"/>
-        <enum name="percent" value="2"/>
-    </attr>
-    <attr format="dimension|enum" name="layout_constraintWidth_max">
-        <enum name="wrap" value="-2"/>
-    </attr>
-    <attr format="dimension|enum" name="layout_constraintWidth_min">
-        <enum name="wrap" value="-2"/>
-    </attr>
-    <attr format="float" name="layout_constraintWidth_percent"/>
-    <attr format="dimension" name="layout_editor_absoluteX"/>
-    <attr format="dimension" name="layout_editor_absoluteY"/>
-    <attr format="dimension" name="layout_goneMarginBottom"/>
-    <attr format="dimension" name="layout_goneMarginEnd"/>
-    <attr format="dimension" name="layout_goneMarginLeft"/>
-    <attr format="dimension" name="layout_goneMarginRight"/>
-    <attr format="dimension" name="layout_goneMarginStart"/>
-    <attr format="dimension" name="layout_goneMarginTop"/>
-    <attr name="layout_optimizationLevel">
-        <flag name="none" value="0"/>
-        <flag name="standard" value="7"/> <!-- direct, barriers, chains -->
-        <flag name="direct" value="1"/>
-        <flag name="barrier" value="2"/>
-        <flag name="chains" value="4"/>
-        <flag name="dimensions" value="8"/>
-        <flag name="groups" value="32"/>
-    </attr>
     <attr format="string" name="title"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_allow_stacked_button_bar">false</bool>
@@ -162,24 +185,19 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="black_overlay">#66000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
-    <color name="btColor">#ff3f3f</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="cardview_dark_background">#FF424242</color>
-    <color name="cardview_light_background">#FFFFFFFF</color>
-    <color name="cardview_shadow_end_color">#03000000</color>
-    <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorBackground">#f8f8f8ff</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorQuizAnswerPick">#60697fff</color>
-    <color name="colorTitleBar">#ff3f3f</color>
+    <color name="colorAccent">#ff3f3f</color>
+    <color name="colorPrimary">#ff3f3f</color>
+    <color name="colorPrimaryDark">#ff3f3f</color>
+    <color name="colorWhite">#FFFFFF</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -188,6 +206,7 @@
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="grey">#E0E0E0</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -881,38 +900,14 @@
 
         <attr format="string" name="viewInflaterClass"/>
     </declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="metaButtonBarStyle"/>
+        <attr format="reference" name="metaButtonBarButtonStyle"/>
+    </declare-styleable>
     <declare-styleable name="ButtonBarLayout">
         <!-- Whether to automatically stack the buttons when there is not
              enough space to lay them out side-by-side. -->
         <attr format="boolean" name="allowStacking"/>
-    </declare-styleable>
-    <declare-styleable name="CardView">
-        <!-- Background color for CardView. -->
-        <attr format="color" name="cardBackgroundColor"/>
-        <!-- Corner radius for CardView. -->
-        <attr format="dimension" name="cardCornerRadius"/>
-        <!-- Elevation for CardView. -->
-        <attr format="dimension" name="cardElevation"/>
-        <!-- Maximum Elevation for CardView. -->
-        <attr format="dimension" name="cardMaxElevation"/>
-        <!-- Add padding in API v21+ as well to have the same measurements with previous versions. -->
-        <attr format="boolean" name="cardUseCompatPadding"/>
-        <!-- Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. -->
-        <attr format="boolean" name="cardPreventCornerOverlap"/>
-        <!-- Inner padding between the edges of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPadding"/>
-        <!-- Inner padding between the left edge of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPaddingLeft"/>
-        <!-- Inner padding between the right edge of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPaddingRight"/>
-        <!-- Inner padding between the top edge of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPaddingTop"/>
-        <!-- Inner padding between the bottom edge of the Card and children of the CardView. -->
-        <attr format="dimension" name="contentPaddingBottom"/>
-        <!-- Workaround to read user defined minimum width -->
-        <attr name="android:minWidth"/>
-        <!-- Workaround to read user defined minimum height -->
-        <attr name="android:minHeight"/>
     </declare-styleable>
     <declare-styleable name="ColorStateListItem">
         <!-- Base color for this state. -->
@@ -947,9 +942,6 @@
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
-    <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
-    <declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable>
-    <declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout">
         <!-- A reference to an array of integers representing the
              locations of horizontal keylines in dp from the starting edge.
@@ -1186,7 +1178,6 @@
         <!-- The current color for the offset inside the gradient. -->
         <attr name="android:color"/>
     </declare-styleable>
-    <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat">
         <!-- Should the layout be a column or a row?  Use "horizontal"
              for a row, "vertical" for a column.  The default is
@@ -1791,9 +1782,6 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
-    <dimen name="cardview_default_elevation">2dp</dimen>
-    <dimen name="cardview_default_radius">2dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
     <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
@@ -1829,7 +1817,6 @@
     <dimen name="subtitle_outline_width">2dp</dimen>
     <dimen name="subtitle_shadow_offset">2dp</dimen>
     <dimen name="subtitle_shadow_radius">2dp</dimen>
-    <dimen name="text_margin">16dp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
     <dimen name="tooltip_margin">8dp</dimen>
@@ -1901,104 +1888,148 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">115_Project</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
+    <string name="app_name">Siklab</string>
+    <string name="home_button_lessons">Lessons</string>
+    <string name="home_button_progress">Progress</string>
+    <string name="home_button_quizes">Quizzes</string>
+    <string name="home_subtitle">Your #1 Fire Safety and Prevention Interactive Learning Application</string>
+    <string name="home_title">Welcome to Siklab!</string>
+    <string name="lesson_five_paragraph_one">
+        The three Golden Rules to follow to ensure that you and your family are safe from fire are:\n
+        - Prevention\n
+        - The best way to be “fire safe” is to make sure that fires never happen.\n
+        - Detection\n
+        - If a fire starts in your home, an early warning will give you maximum time to escape.\n
+        - Evacuation\n
+        - When you get a warning that there is a fire, you need to evacuate as quickly and efficiently as possible, using a pre-arranged evacuation plan.\n\n
+        However if you should fall victim of a fire and suffer burns or smoke inhalation here some basic First Aid tips:\n
+        - The number one cause of death related to fires is smoke inhalation. An estimated 50%-80% of fire deaths are the result of smoke inhalation injuries rather than burns.\n
+        - The First Aid treatment for someone exposed to smoke inhalation is to remove the person from the scene and bring her/him outside to get fresh air.\n
+        - Make sure that you don’t put yourself in danger. Don’t risk to being a dead hero!\n
+        - Monitor the casualty as she/he can deteriorate very quickly. Be prepared to commence CPR.\n
+        - If the following symptoms are present, get the casualty to an Emergency department:\n
+        - hoarse voice\n
+        - difficulty breathing\n
+        - prolonged coughing\n
+        - casualty appears to be confused\n\n
+        If the casualty has to be transferred to hospital, make sure you call for an ambulance. Don’t risk bringing the casualty in a private car as they can get worse very quickly and will need emergency medical aid. Only ambulance staff can administer the number one treatment – oxygen. Depending on the severity of the smoke inhalation this ranges from nasal tubes to intubation.\n\n
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
 
-        "Bold, graphic, intentional.\n\n"
+        Most burns are minor and don’t need medical attention. However if clothing is burning, have the casualty roll on the ground. Smother flames with a blanket or douse the casualty in water.\n
+        First Aid Tips:\n
+        - Cool the area with running cold water for 10 minutes\n
+        - If water is not available us other harmless fluids\n
+        - Remove any constrictive jewellery or clothing before area will start to swell\n
+        - If clothing is stuck to skin DO NOT remove\n
+        - Dress the burn with sterile dressing that won’t stick.\n
+        - Tip – use cling film or new unused plastic bag. Don’t wrap too tight.\n
+        - For large second degree and all third degree burns seek medical attention\n
+        - Monitor breathing as swelling of the airways can occur up to 24 hours after the initial burn\n\n
+        CAUTION – DO NOT:\n
+        - Break any blisters. Intact blisters serve as an excellent burn dressing.\n
+        - Touch the burn.\n
+        - Apply lotions, ointments or butter.\n
+        - Apply adhesive tape or dressings.\n
+        - Remove clothing that has stuck to the burn\n
+    </string>
+    <string name="lesson_four_paragraph_one">
+        1. Identify and report fire hazards and unsafe work practices.\n
+        2. Unplug all electrical equipment when not in operation, unless necessary.\n
+        3. Maintain proper housekeeping.\n
+        4. Familiarize and keep emergency exits marked, lighted and free from any obstruction.\n
+        5. Familiarize location of fire alarm, fire extinguishers and other fire fighting equipment.\n
+        6. Enforce “No Smoking” policy.\n
+        7. Avoid overloading of electrical circuits by plugging many appliances.\n
+        8. Do not store large volume of combustible liquids without proper clearance/permit and fire protection.\n
+        9. Ensure complete attendance of ALL fire brigade members during Fire Safety Seminars and Drills\n
+        10. Regularly conduct emergency drills (internal).\n\n
+        It\'s also good to memorize the direct lines of fire stations near your home and work places. For Metro Manila residents, you can dial 117.\n
+    </string>
+    <string name="lesson_one_paragraph_one">
+        Fire itself is a chemical phenomenon, all fuels are (synthetic or organic) chemical compounds and when fuel is ignited, the result is a chemical reaction with predictable physical effects.\n
+        - A small fire can produce enough smoke to fill a building in minutes. Smoke results in:\n
+        - Teary eyes\n
+        - Choking sensation\n
+        - Impaired judgment due to Carbon Monoxide (CO)\n
+        - Loss of spatial recognition\n
+        - Sedation effect - Respiratory failure\n
+        - Within minutes, air temperature in a burning room can reach 300 degrees Celsius. This temperature is hot enough to melt clothes, skin and scorch your lungs in one breathe.\n
+        - Temperatures can climb to between 650-760 degrees Celsius.\n
+        - Most people who die in fires, die from breathing smoke and toxic gases. Carbon Oxide, Hydrogen Cyanide, Ammonia and hundreds of other irritants attack your eyes, nose, throat and lungs. They numb your senses and leave you dazed.\n\n
+        Bureau of Fire Protection\n
+        - Through the enactment of the RA 6975, also known as the DILG Act of 1990, the Fire Service was separated from the PC-INP as a separate and distinct agency as Bureau of Fire Protection on August 2, 1991.\n\n
+        - BFP is mandated to prevent  and suppress destructive fires, conduct investigation, provide emergency medical and rescue services and enforce the Republic Act 9514.\n\n
+        The Tetrahedron of Fire\n
+    </string>
+    <string name="lesson_one_paragraph_two">
+        The diffusion flame process (fire) is a rapid self-sustaining oxidation process accompanied by the evolution of heat and light of varying intensities.\n
+        Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN.\n
+    </string>
+    <string name="lesson_three_paragraph_five">
+        CLASS K\n
+        Fires involving combustible cooking fluids such as oils and fats.\n
+    </string>
+    <string name="lesson_three_paragraph_four">
+        CLASS D\n
+        Certain combustible metals, such as magnesium, titanium, potassium and sodium. They may react violently with water or other chemicals, and must be handled with care.\n
+    </string>
+    <string name="lesson_three_paragraph_one">
+        A fire is classified according to the fuel it consumes\n
+        CLASS A\n
+        Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber and some plastics.\n
+    </string>
+    <string name="lesson_three_paragraph_six">
+        METHODS OF HEAT TRANSFER\n
+        1. By Radiation\n
+        -With heat rays causing nearby combustible objects to burst into flames\n
+        2. By Convection\n
+        -Through the action of heat arising within a structure, bringing along poisonous gases and smoke.\n
+        -The most life-threatening\n
+        -Fastest way fire travels\n
+        3. By Direct Contact/Conduction\n
+        -With the flame catching from one object to another
+    </string>
+    <string name="lesson_three_paragraph_three">
+        CLASS C\n
+        Energized electrical equipment, such as appliances, switches, panel boxes and power tools.\n
+    </string>
+    <string name="lesson_three_paragraph_two">
+        CLASS B\n
+        Flammable or combustible liquids such as gasoline, kerosene, paint, paint thinners and propane.\n
+    </string>
+    <string name="lesson_two_paragraph_one">
+        IGNITION STAGE\n
+        Point wherein the fire starts\n
+        There is plenty of oxygen, little heat and smoke\n
+        Fire is still small and generally confined to the fuel that initially ignited\n\n
 
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
+        GROWTH STAGE\n
+        Temperature and smoke level increases\n
+        Oxygen level decreased and the fuel is already dried out\n
+        Hot gasses rise to the ceiling and spreads outward the walls\n
+        Can be continuous if there is enough fuel and oxygen\n
+        The smoke layer is getting thicker and fire is starting to spread to nearby furniture\n\n
 
-        "Motion provides meaning.\n\n"
+        FLASH OVER\n
+        Transition between growth and fully developed stage\n
+        Presence of huge smoke which indicates the rapid change of situation\n
+        May involve exposed combustibles\n
+        Increasing level of smoke with decreased visibility\n
+        Gasses are generated by heat\n\n
 
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+        FULLY DEVELOPED\n
+        All combustibles materials present are continuously burning\n
+        Maximum amount of heat is released\n
+        The volume of fire is dependent of the number and size of ventilation openings\n
+        Unburned gasses begin flowing to adjacent spaces and ignite once it enters a space where air more abundant\n\n
 
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
+        DECAY\n
+        Intensity of fire decreasing due to lack of available fuel\n
+        Most of fuel consumed\n
+        Effort concentrated on cooling of the remaining fuel\n
     </string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_lesson1">Lesson1</string>
-    <string name="title_activity_lesson_main">LessonMain</string>
-    <string name="title_activity_lesson_one">LessonOne</string>
-    <style name="ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:background">@color/colorTitleBar</item>
-    </style>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2006,7 +2037,14 @@
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorTitleBar</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
@@ -2029,13 +2067,6 @@
     <style name="Base.Animation.AppCompat.Tooltip" parent="android:Animation">
         <item name="android:windowEnterAnimation">@anim/abc_tooltip_enter</item>
         <item name="android:windowExitAnimation">@anim/abc_tooltip_exit</item>
-    </style>
-    <style name="Base.CardView" parent="android:Widget">
-        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
-        <item name="cardElevation">@dimen/cardview_default_elevation</item>
-        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
-        <item name="cardUseCompatPadding">false</item>
-        <item name="cardPreventCornerOverlap">true</item>
     </style>
     <style name="Base.DialogWindowTitle.AppCompat" parent="android:Widget">
         <item name="android:maxLines">1</item>
@@ -3076,32 +3107,6 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
-    <style name="CardView" parent="Base.CardView">
-    </style>
-    <style name="CardView.Dark">
-        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
-    </style>
-    <style name="CardView.Light">
-        <item name="cardBackgroundColor">@color/cardview_light_background</item>
-    </style>
-    <style name="CardViewLesson">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">160dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-    </style>
-    <style name="CardViewQuiz">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">500dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-    </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -3240,28 +3245,6 @@
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Holo.Spinner"/>
-    <style name="RedRoundedButton">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="RedRoundedButtonQuiz">
-        <item name="android:layout_width">120dp</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:gravity">center</item>
-    </style>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">
@@ -3394,145 +3377,6 @@
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
-    </style>
-    <style name="TextViewHome">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:layout_marginBottom">260dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="TextViewHomePage">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">50dp</item>
-        <item name="android:layout_marginBottom">6dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="TextViewLessonChoose">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">100dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">0dp</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@color/colorBackground</item>
-    </style>
-    <style name="TextViewLessonSize">
-        <item name="android:textSize">20sp</item>
-        <item name="android:gravity">left</item>
-    </style>
-    <style name="TextViewLessons">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">100dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="TextViewProgress">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:layout_marginBottom">260dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="TextViewQuiz">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">140dp</item>
-        <item name="android:layout_marginBottom">260dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">25sp</item>
-        <item name="android:gravity">left</item>
-    </style>
-    <style name="TextViewQuizAnswer">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">50dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:radius">20dp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="TextViewQuizCorrectAnswer">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">50dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:radius">20dp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="TextViewQuizTitle">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">80dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="TextViewTakeQuiz">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">100dp</item>
-        <item name="android:layout_marginBottom">260dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <style name="TextViewTakeQuiz1">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:layout_marginBottom">260dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:gravity">center</item>
     </style>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
@@ -3668,5 +3512,20 @@
     <style name="Widget.Compat.NotificationActionText" parent=""/>
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:background">@drawable/btn_redroundedbutton</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginBottom">22dp</item>
+    </style>
+    <style name="paragraphStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">22dp</item>
     </style>
 </resources>

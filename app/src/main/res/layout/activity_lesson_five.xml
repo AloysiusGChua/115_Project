@@ -1,91 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".LessonFive">
-    <android.support.constraint.ConstraintLayout
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textViewlessonfivetitle"
-            style="@style/TextViewLessons"
-            android:text="Fire Safety First Aid"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageViewlessonfivefirst"
-            android:layout_width="300dp"
-            android:layout_height="250dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/lessonsevenfirst"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewlessonfivetitle" />
+            <TextView
+                android:id="@+id/lesson_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title Goes Here"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="22dp"/>
 
-        <TextView
-            android:id="@+id/textViewlessonfive1"
-            style="@style/TextViewLessonSize"
-            android:layout_width="350dp"
-            android:layout_height="2100dp"
-            android:text="The three Golden Rules to follow to ensure that you and your family are safe from fire are:\n
-- Prevention\n
-- The best way to be “fire safe” is to make sure that fires never happen.\n
-- Detection\n
-- If a fire starts in your home, an early warning will give you maximum time to escape.\n
-- Evacuation\n
-- When you get a warning that there is a fire, you need to evacuate as quickly and efficiently as possible, using a pre-arranged evacuation plan.\n\n
-However if you should fall victim of a fire and suffer burns or smoke inhalation here some basic First Aid tips:\n
-- The number one cause of death related to fires is smoke inhalation. An estimated 50%-80% of fire deaths are the result of smoke inhalation injuries rather than burns.\n
-- The First Aid treatment for someone exposed to smoke inhalation is to remove the person from the scene and bring her/him outside to get fresh air.\n
-- Make sure that you don’t put yourself in danger. Don’t risk to being a dead hero!\n
-- Monitor the casualty as she/he can deteriorate very quickly. Be prepared to commence CPR.\n
-- If the following symptoms are present, get the casualty to an Emergency department:\n
-- hoarse voice\n
-- difficulty breathing\n
-- prolonged coughing\n
-- casualty appears to be confused\n\n
-If the casualty has to be transferred to hospital, make sure you call for an ambulance. Don’t risk bringing the casualty in a private car as they can get worse very quickly and will need emergency medical aid. Only ambulance staff can administer the number one treatment – oxygen. Depending on the severity of the smoke inhalation this ranges from nasal tubes to intubation.\n\n
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessonfivefirst"/>
 
+            <TextView
+                android:text="@string/lesson_five_paragraph_one"
+                style="@style/paragraphStyle"/>
 
-Most burns are minor and don’t need medical attention. However if clothing is burning, have the casualty roll on the ground. Smother flames with a blanket or douse the casualty in water.\n
-First Aid Tips:\n
-- Cool the area with running cold water for 10 minutes\n
-- If water is not available us other harmless fluids\n
-- Remove any constrictive jewellery or clothing before area will start to swell\n
-- If clothing is stuck to skin DO NOT remove\n
-- Dress the burn with sterile dressing that won’t stick.\n
-- Tip – use cling film or new unused plastic bag. Don’t wrap too tight.\n
-- For large second degree and all third degree burns seek medical attention\n
-- Monitor breathing as swelling of the airways can occur up to 24 hours after the initial burn\n\n
-CAUTION – DO NOT:\n
-- Break any blisters. Intact blisters serve as an excellent burn dressing.\n
-- Touch the burn.\n
-- Apply lotions, ointments or butter.\n
-- Apply adhesive tape or dressings.\n
-- Remove clothing that has stuck to the burn\n
-"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewlessonfivefirst" />
+            <Button
+                android:id="@+id/complete_btn"
+                android:text="Complete Lesson"
+                style="@style/buttonStyle"/>
 
-        <Button
-            android:id="@+id/completelessonfive"
-            style="@style/RedRoundedButton"
-            android:background="@drawable/btn_redroundedbutton"
-            android:text="Complete Lesson"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewlessonfive1" />
+        </LinearLayout>
 
-    </android.support.constraint.ConstraintLayout>
-</ScrollView>
+    </ScrollView>
+
+</RelativeLayout>
