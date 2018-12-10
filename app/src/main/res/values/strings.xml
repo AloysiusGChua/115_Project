@@ -21,7 +21,7 @@
 
     <!-- LESSON 1 DATA -->
     <string name="lesson_one_paragraph_one">
-        Fire itself is a chemical phenomenon, all fuels are (synthetic or organic) chemical compounds and when fuel is ignited, the result is a chemical reaction with predictable physical effects.\n
+        <b>Fire</b> itself is a chemical phenomenon, all fuels are (synthetic or organic) chemical compounds and when fuel is ignited, the result is a chemical reaction with predictable physical effects.\n\n
         - A small fire can produce enough smoke to fill a building in minutes. Smoke results in:\n
         - Teary eyes\n
         - Choking sensation\n
@@ -31,14 +31,14 @@
         - Within minutes, air temperature in a burning room can reach 300 degrees Celsius. This temperature is hot enough to melt clothes, skin and scorch your lungs in one breathe.\n
         - Temperatures can climb to between 650-760 degrees Celsius.\n
         - Most people who die in fires, die from breathing smoke and toxic gases. Carbon Oxide, Hydrogen Cyanide, Ammonia and hundreds of other irritants attack your eyes, nose, throat and lungs. They numb your senses and leave you dazed.\n\n
-        Bureau of Fire Protection\n
+        <b>Bureau of Fire Protection</b>\n
         - Through the enactment of the RA 6975, also known as the DILG Act of 1990, the Fire Service was separated from the PC-INP as a separate and distinct agency as Bureau of Fire Protection on August 2, 1991.\n\n
         - BFP is mandated to prevent  and suppress destructive fires, conduct investigation, provide emergency medical and rescue services and enforce the Republic Act 9514.\n\n
-        The Tetrahedron of Fire\n
+        <b>The Tetrahedron of Fire</b>\n
     </string>
 
     <string name="lesson_one_paragraph_two">
-        The diffusion flame process (fire) is a rapid self-sustaining oxidation process accompanied by the evolution of heat and light of varying intensities.\n
+        The <b>diffusion flame process</b> (fire) is a rapid self-sustaining oxidation process accompanied by the evolution of heat and light of varying intensities.\n
         Fire consists of three basic elements, as represented by the fire triangle: HEAT, FUEL and OXYGEN.\n
     </string>
     <!-- LESSON 1 DATA -->
@@ -136,11 +136,11 @@
     <!-- LESSON 5 DATA -->
     <string name="lesson_five_paragraph_one">
         The three Golden Rules to follow to ensure that you and your family are safe from fire are:\n
-        - Prevention\n
+        - <b>Prevention</b>\n
         - The best way to be “fire safe” is to make sure that fires never happen.\n
-        - Detection\n
+        - <b>Detection</b>\n
         - If a fire starts in your home, an early warning will give you maximum time to escape.\n
-        - Evacuation\n
+        - <b>Evacuation</b>\n
         - When you get a warning that there is a fire, you need to evacuate as quickly and efficiently as possible, using a pre-arranged evacuation plan.\n\n
         However if you should fall victim of a fire and suffer burns or smoke inhalation here some basic First Aid tips:\n
         - The number one cause of death related to fires is smoke inhalation. An estimated 50%-80% of fire deaths are the result of smoke inhalation injuries rather than burns.\n
@@ -160,17 +160,17 @@
         - Cool the area with running cold water for 10 minutes\n
         - If water is not available us other harmless fluids\n
         - Remove any constrictive jewellery or clothing before area will start to swell\n
-        - If clothing is stuck to skin DO NOT remove\n
+        - If clothing is stuck to skin <b>DO NOT</b> remove\n
         - Dress the burn with sterile dressing that won’t stick.\n
         - Tip – use cling film or new unused plastic bag. Don’t wrap too tight.\n
         - For large second degree and all third degree burns seek medical attention\n
         - Monitor breathing as swelling of the airways can occur up to 24 hours after the initial burn\n\n
-        CAUTION – DO NOT:\n
+        <b>CAUTION – DO NOT:\n
         - Break any blisters. Intact blisters serve as an excellent burn dressing.\n
         - Touch the burn.\n
         - Apply lotions, ointments or butter.\n
         - Apply adhesive tape or dressings.\n
-        - Remove clothing that has stuck to the burn\n
+            - Remove clothing that has stuck to the burn</b>\n
     </string>
     <!-- LESSON 5 DATA -->
 

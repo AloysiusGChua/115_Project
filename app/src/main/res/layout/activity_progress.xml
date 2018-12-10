@@ -23,7 +23,8 @@
             android:layout_height="200dp"
             android:layout_marginBottom="22dp"
             android:layout_gravity="center"
-            android:background="@drawable/bg_quiz">
+            android:background="@drawable/bg_quiz"
+            android:elevation="1dp">
 
             <TextView
                 android:id="@+id/counter"
@@ -37,6 +38,17 @@
                 android:textSize="80sp"/>
 
         </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="110dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingBottom="90dp"
+        android:background="#E0E0E0"
+        android:layout_marginTop="-120dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -215,6 +227,8 @@
                 android:layout_gravity="end"/>
 
         </LinearLayout>
+
+    </LinearLayout>
 
     </LinearLayout>
 
