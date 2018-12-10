@@ -27,7 +27,19 @@
                 android:layout_width="320dp"
                 android:layout_height="220dp"
                 android:layout_gravity="center"
-                android:src="@drawable/lessononefirst"/>
+                android:src="@drawable/lessononefirst"
+                android:elevation="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="110dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="90dp"
+            android:background="#E0E0E0"
+            android:layout_marginTop="-120dp">
 
             <TextView
                 android:text="@string/lesson_one_paragraph_one"
@@ -47,6 +59,8 @@
                 android:id="@+id/complete_btn"
                 android:text="Complete Lesson"
                 style="@style/buttonStyle"/>
+
+        </LinearLayout>
 
         </LinearLayout>
 
