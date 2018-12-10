@@ -51,6 +51,8 @@ public class ActivityResultFive extends AppCompatActivity {
         // change counter text
         counterView.setText("0" + Integer.toString(correctAnswers));
 
+        nextLessonBtn.setText("Go to Lessons");
+
         // set onclick listeners
         answersBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,12 +67,12 @@ public class ActivityResultFive extends AppCompatActivity {
                 );
             }
         });
-//        nextLessonBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(getApplicationContext(), ActivityLessonFour.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-//            }
-//        });
+        nextLessonBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ActivityLessons.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+            }
+        });
     }
 
     @Override

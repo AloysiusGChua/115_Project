@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aloy\\AndroidStudioProjects\\Latest Push 12-5-2018\\115_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\Arianne PC\\Desktop\\LATEST PUSH SIKLAB 121018\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aloy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d4ea6267c52f348ef9446ac101cae267\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Arianne PC\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d4a3dd320918cca410e8aa2563787308\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
