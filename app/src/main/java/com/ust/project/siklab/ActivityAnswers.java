@@ -27,7 +27,7 @@ public class ActivityAnswers extends AppCompatActivity {
         final int lessonNumber = getIntent().getIntExtra("LESSON_NUMBER", 0);
 
         String lessonTitle = getResources().getStringArray(R.array.lesson_list)[(lessonNumber - 1)];
-        String appBarTitle = "Quiz 1: " + lessonTitle;
+        String appBarTitle = "Quiz " + lessonNumber + ": " + lessonTitle;
         getSupportActionBar().setTitle(appBarTitle);
 
         TextView titleView = findViewById(R.id.title);
